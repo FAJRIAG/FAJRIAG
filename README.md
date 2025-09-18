@@ -1,89 +1,91 @@
 <!-- GitHub Profile README - FAJRIAG -->
 
-<h1 align="center">Hi there 👋, I'm Fajri Abdurahman Ghurri</h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,100:2C5364&height=180&section=header&text=Fajri%20Abdurahman%20Ghurri&fontSize=35&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
+</p>
+
 <h3 align="center">💻 Flutter Developer · 🤖 IoT Prototyping Enthusiast · 🚀 Tech Explorer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&width=500&lines=Crafting+Smart+Solutions;Mobile+%26+IoT+Developer;From+Idea+to+Execution;Turning+Tech+into+Impact" />
+  <img src="https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&width=550&lines=Crafting+Smart+Solutions;Mobile+%26+IoT+Developer;From+Idea+to+Execution;Turning+Tech+into+Impact" />
 </p>
 
 ---
 
-## 👨‍💼 About Me
+## 👨‍💼 About Me  
 
-I'm a software & hardware enthusiast with a passion for building real-world solutions through code and circuits.
+I’m a software & hardware enthusiast passionate about building real-world solutions through **clean code** and **smart prototyping**.
 
-- 🎓 **D4 Smart City Information Systems**, Politeknik Negeri Indramayu  
-- 📱 Flutter developer focused on clean architecture and responsive UI  
-- 🤖 IoT tinkerer with Arduino, sensors, and microcontrollers  
-- 🔁 Real-time integrations between mobile apps and hardware systems  
-- 🧠 Lifelong learner and hands-on project lover
+- 🎓 **D4 Smart City Information Systems** @ Politeknik Negeri Indramayu  
+- 📱 Flutter developer focused on scalable architecture & responsive UI  
+- 🤖 IoT tinkerer with Arduino, ESP32 & sensor-based systems  
+- 🔁 Bridging mobile apps with real-time hardware integrations  
+- 🌱 Lifelong learner · Project-driven problem solver  
 
 ---
 
-## 🧰 Tech Toolbox
+## 🧰 Tech Toolbox  
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
-  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Tinkercad-F1A33C?style=for-the-badge&logo=tinkercad&logoColor=white"/>
+  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,mysql,php,arduino,github,vscode,linux&perline=6" />
 </p>
 
 ---
 
-## 🚀 Highlight Projects
+## 🚀 Highlight Projects  
 
 | 📱 Project | 🔧 Tech Stack | 📌 Description |
 |-----------|---------------|----------------|
-| **Shopee Clone** | Flutter · Firebase | E-commerce app with real-time cart, category filter, Firestore backend |
-| **PKBM App** | Flutter · Firebase · MySQL | Nonformal education system with user login, CRUD, SharedPreferences |
-| **JriCrypt Browser** | Flutter WebView | Secure browser with adblock, incognito, bookmarks, and history |
-| **Smart Door Lock** | Arduino | Keypad password lock with LCD display and servo motor |
-| **Gas & Distance Monitor** | Arduino + Sensors | Live sensor data for gas leak and proximity monitoring |
+| **Shopee Clone** | Flutter · Firebase | E-commerce app with real-time cart & Firestore backend |
+| **PKBM App** | Flutter · Firebase · MySQL | Nonformal education system with CRUD & SharedPreferences |
+| **JriCrypt Browser** | Flutter WebView | Secure browser with adblock, incognito, bookmarks & history |
+| **Smart Door Lock** | Arduino | Keypad password lock with LCD display & servo motor |
+| **Gas & Distance Monitor** | Arduino + Sensors | Real-time gas leak & proximity monitoring |
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FAJRIAG&show_icons=true&theme=tokyonight" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FAJRIAG&layout=compact&theme=tokyonight" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=FAJRIAG&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FAJRIAG&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=FAJRIAG&theme=tokyonight&hide_border=true" height="160"/>
 </p>
 
 ---
 
-## 🤝 Let’s Collaborate
+## 🏆 Achievements  
 
-I’m open for:
-- 📲 Freelance Flutter development  
-- 🔬 IoT prototyping and simulation (Arduino, ESP32, etc.)  
-- 🌱 Tech solutions for smart cities and education systems
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=FAJRIAG&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6"/>
+</p>
 
-> Need a developer who builds things that work? Let’s make it happen!
+---
 
-📧 **Email**: fazryx8@gmail.com  
+## 🤝 Let’s Connect  
+
+<p align="center">
+  <a href="mailto:fazryx8@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/fajri-abdurahman-ghurri/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/FAJRIAG"><img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white"/></a>
+</p>
+
 📍 **Location**: Indramayu, Indonesia  
-🔗 **LinkedIn**: [LinkedIn Profile](https://linkedin.com/in/fajri-abdurahman-ghurri/)  
-📱 **QR Contact**:  
-<p align="left">
-  <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://linkedin.com/in/fajri-abdurahman-ghurri/&size=150x150" alt="QR Code"/>
-</p>
 
 ---
 
-## ✨ Fun Bits
+## ✨ Fun Bits  
 
-- 🧪 Love simulating on **Tinkercad** and **Wokwi**
-- 🐞 Debugging = Fun (really!)
-- 🧰 Enjoy clean code and performance-tuned apps
-- 💬 _"Learning by Making. Solving by Building."_
+- 🧪 Love simulating on **Tinkercad** & **Wokwi**  
+- 🐞 Debugging feels like solving puzzles  
+- 🧰 Advocate for clean, performance-oriented code  
+- 💬 Motto: _"Learning by Making. Solving by Building."_  
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,100:2C5364&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,100:2C5364&height=120&section=footer"/>
 </p>
