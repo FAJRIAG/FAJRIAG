@@ -27,7 +27,7 @@ I’m a software & hardware enthusiast passionate about building real-world solu
 ## 🧰 Tech Toolbox  
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,mysql,php,arduino,github,vscode,linux&perline=6" />
+  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,mysql,php,arduino,github,vscode,linux,git,figma&perline=7" />
 </p>
 
 ---
@@ -47,12 +47,37 @@ I’m a software & hardware enthusiast passionate about building real-world solu
 ## 📊 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FAJRIAG&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FAJRIAG&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
+  <picture>
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api?username=FAJRIAG&show_icons=true&theme=tokyonight&hide_border=true" 
+      media="(prefers-color-scheme: dark)" />
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api?username=FAJRIAG&show_icons=true&theme=default&hide_border=true" 
+      media="(prefers-color-scheme: light)" />
+    <img src="https://github-readme-stats.vercel.app/api?username=FAJRIAG&show_icons=true" height="160"/>
+  </picture>
+
+  <picture>
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=FAJRIAG&layout=compact&theme=tokyonight&hide_border=true" 
+      media="(prefers-color-scheme: dark)" />
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=FAJRIAG&layout=compact&theme=default&hide_border=true" 
+      media="(prefers-color-scheme: light)" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FAJRIAG&layout=compact" height="160"/>
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=FAJRIAG&theme=tokyonight&hide_border=true" height="160"/>
+  <picture>
+    <source 
+      srcset="https://streak-stats.demolab.com?user=FAJRIAG&theme=tokyonight&hide_border=true" 
+      media="(prefers-color-scheme: dark)" />
+    <source 
+      srcset="https://streak-stats.demolab.com?user=FAJRIAG&theme=default&hide_border=true" 
+      media="(prefers-color-scheme: light)" />
+    <img src="https://streak-stats.demolab.com?user=FAJRIAG" height="160"/>
+  </picture>
 </p>
 
 ---
@@ -60,7 +85,31 @@ I’m a software & hardware enthusiast passionate about building real-world solu
 ## 🏆 Achievements  
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=FAJRIAG&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6"/>
+  <picture>
+    <source 
+      srcset="https://github-profile-trophy.vercel.app/?username=FAJRIAG&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6" 
+      media="(prefers-color-scheme: dark)" />
+    <source 
+      srcset="https://github-profile-trophy.vercel.app/?username=FAJRIAG&theme=flat&no-frame=true&no-bg=true&row=1&column=6" 
+      media="(prefers-color-scheme: light)" />
+    <img src="https://github-profile-trophy.vercel.app/?username=FAJRIAG&row=1&column=6"/>
+  </picture>
+</p>
+
+---
+
+## 📈 Activity Graph  
+
+<p align="center">
+  <picture>
+    <source 
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=FAJRIAG&theme=react-dark&hide_border=true&area=true" 
+      media="(prefers-color-scheme: dark)" />
+    <source 
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=FAJRIAG&theme=github-light&hide_border=true&area=true" 
+      media="(prefers-color-scheme: light)" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=FAJRIAG" width="95%"/>
+  </picture>
 </p>
 
 ---
@@ -68,12 +117,13 @@ I’m a software & hardware enthusiast passionate about building real-world solu
 ## 🤝 Let’s Connect  
 
 <p align="center">
-  <a href="mailto:fazryx8@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="mailto:jridev2@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://linkedin.com/in/fajri-abdurahman-ghurri/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://github.com/FAJRIAG"><img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
 📍 **Location**: Indramayu, Indonesia  
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=FAJRIAG)
 
 ---
 
