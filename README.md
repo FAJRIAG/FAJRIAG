@@ -4,100 +4,178 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,100:2C5364&height=180&section=header&text=Fajri%20Abdurahman%20Ghurri&fontSize=35&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
 </p>
 
-<h3 align="center">🤖 AI Engineer in Training · 💻 Flutter Dev · 🌐 IoT & Smart City Enthusiast</h3>
+<h3 align="center">
+🤖 AI & Generative AI Engineer in Training · 💻 Flutter Developer · 🌐 IoT & Smart City Enthusiast
+</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&width=650&lines=Building+AI-Powered+Smart+City+Solutions;LLMs,+RAG+%26+Generative+AI+Explorer;From+Prototype+to+Real-World+Impact;I+train+AI,+and+AI+trains+me+back"/>
+  <img src="https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&width=700&lines=Machine+Learning+%7C+Deep+Learning+%7C+Generative+AI;LLMs,+Transformers,+RAG+%26+LangChain;Building+AI+Systems+for+Real+World+Applications;AI+Engineer+in+Training"/>
 </p>
 
 ---
 
-## 👨‍💼 About Me  
+# 👨‍💻 About Me
 
-I’m an aspiring **AI Engineer** and **Smart City technologist** who loves mixing:
+I'm a **6th semester Smart City Information Systems student** passionate about building intelligent systems using **Artificial Intelligence, Machine Learning, and Generative AI**.
 
-- 🤖 **LLMs, RAG & Generative AI** with real use-cases  
-- 📱 **Flutter** for beautiful, production-ready mobile apps  
-- 🔌 **IoT & embedded systems** (ESP32, Arduino, sensors, Node-RED)  
-- 🌆 Smart City context: safety, monitoring, and learning applications  
+I enjoy combining:
 
-**Current focus:**
+- 🤖 Machine Learning & Deep Learning  
+- 🧠 Large Language Models (LLMs) & Generative AI  
+- 📱 Flutter mobile development  
+- 🔌 IoT & embedded systems (ESP32, Arduino)  
+- 🌆 Smart City monitoring systems  
 
-- 🧠 AI for **education** (Japanese learning, pronunciation scoring, ASR)  
-- 🦺 **Computer Vision** for safety (PPE / helmet & vest detection)  
-- 🌐 Connecting **edge devices → APIs → cloud dashboards**  
+🎓 **D4 Smart City Information Systems**  
+Politeknik Negeri Indramayu
 
-- 🎓 **D4 Smart City Information Systems** @ Politeknik Negeri Indramayu  
-- 🌱 Always learning by building, breaking, and rebuilding  
+I focus on building **AI systems that solve real-world problems**, especially in **education, smart city infrastructure, and intelligent automation**.
 
 ---
 
-## 🧰 Tech Toolbox  
+# 🏅 Professional Certifications
+
+### 🤖 AI Engineering
+
+**IBM AI Engineering Professional Certificate – IBM**
+
+Topics covered:
+
+- Machine Learning with Python
+- Neural Networks
+- Deep Learning
+- PyTorch & TensorFlow
+- Model evaluation
+
+---
+
+### 🧠 Generative AI Engineering
+
+**IBM Generative AI Engineering Professional Certificate – IBM**
+
+Topics covered:
+
+- Generative AI architectures
+- Transformer models
+- Prompt Engineering
+- LLM fine-tuning
+- RAG (Retrieval Augmented Generation)
+- LangChain AI systems
+
+---
+
+### 📊 Machine Learning & Data Science
+
+- Machine Learning Essentials — University of Pennsylvania  
+- Artificial Intelligence Essentials — University of Pennsylvania  
+- Statistics for Data Science Essentials — University of Pennsylvania  
+
+---
+
+### 🤖 AI & Prompt Engineering
+
+- Introduction to AI — Google  
+- Design Prompts for Everyday Work Tasks — Google  
+- Start Writing Prompts Like a Pro — Google  
+
+---
+
+# 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,fastapi,nodejs,postgres,redis&perline=8" />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,fastapi,nodejs,postgres,redis&perline=8"/>
   <br/>
-  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,php,laravel,mysql,arduino,raspberrypi,linux,git,github,vscode&perline=8" />
+  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,php,laravel,mysql,arduino,raspberrypi,linux,git,github,vscode&perline=8"/>
 </p>
 
-- 🧠 **AI & ML**: PyTorch, CNNs, transfer learning, HMM/DTW (speech), basic NLP  
-- 🧾 **LLM & GenAI**: Prompting, RAG, LangChain-style workflows, OpenAI API  
-- 🌐 **Backend & API**: FastAPI / Node.js, REST API, JSON, Vercel serverless  
-- 📱 **Frontend & App**: Flutter (Riverpod, responsive UI, clean architecture)  
-- 🔌 **IoT**: ESP32, Arduino, DHT11/22, OLED SSD1306, Thingspeak, Node-RED  
+### 🧠 Artificial Intelligence
+
+- Machine Learning (Scikit-learn)
+- Deep Learning (PyTorch, TensorFlow, Keras)
+- CNN & Transfer Learning
+- Natural Language Processing
+- Transformers & LLM
+- RAG pipelines
+- Prompt Engineering
+
+### 🌐 Backend
+
+- FastAPI
+- Flask
+- Node.js
+- REST APIs
+
+### 📱 Mobile Development
+
+- Flutter
+- Firebase
+- Clean architecture
+
+### 🔌 IoT Systems
+
+- ESP32
+- Arduino
+- Node-RED
+- Thingspeak dashboards
 
 ---
 
-## 🚀 Highlight Projects  
+# 🚀 Highlight Projects
 
-| 📱 / 🤖 Project | 🔧 Tech Stack | 📌 Description |
-|----------------|--------------|----------------|
-| **Nihongo AI – Japanese Learning App** | Flutter · ASR · HMM/DTW · GenAI API | AI-assisted N5–N1 practice, pronunciation scoring, and smart scheduling for learners. |
-| **Safety Helmet & Vest Detector** | YOLOv8 · OpenCV · Python | Computer vision system to detect PPE usage in real time (helmet & reflector vest). |
-| **Waste Classification with Transfer Learning** | PyTorch · VGG16 · CNN | Image classifier for waste categories using transfer learning for Smart City initiatives. |
-| **Japanese Pronunciation Scoring API** | FastAPI / Vercel · OpenAI | Backend service to evaluate speech vs target kana/words, built for integration with mobile apps. |
-| **Smart Room Monitoring (Temp & Humidity)** | ESP32 · DHT11/22 · Thingspeak · Node-RED | Real-time environment monitoring with dashboard, alerts & cloud logging. |
-| **IoT-Integrated Flutter Apps** | Flutter · Firebase/MySQL · REST API | Apps that connect mobile frontends with IoT backends and real-time data streams. |
-
-*(Some projects are still in active development and refactoring — work in progress is part of the journey 🚧)*  
+| Project | Stack | Description |
+|------|------|-------------|
+| Nihongo AI – Japanese Learning App | Flutter · Speech AI | AI-assisted Japanese learning with pronunciation scoring. |
+| Safety Helmet & PPE Detection | YOLO · OpenCV · Python | Computer vision system detecting helmet & safety vest usage. |
+| Smart City Waste Classification | PyTorch · CNN | Transfer learning model for automated waste classification. |
+| Pronunciation Scoring API | FastAPI · AI models | Backend API evaluating speech accuracy for language learning apps. |
+| Smart Room Monitoring | ESP32 · Node-RED · Thingspeak | IoT system for real-time environment monitoring. |
 
 ---
 
-## 🏆 Achievements  
+# 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=FAJRIAG&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6"/>
+<img src="https://github-readme-stats.vercel.app/api?username=FAJRIAG&show_icons=true&theme=tokyonight"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=FAJRIAG&theme=tokyonight"/>
 </p>
 
 ---
 
-## 📚 Currently Exploring  
+# 📚 Currently Exploring
 
-- 🧩 Better **RAG pipelines** for domain-specific knowledge  
-- 🎧 Robust **speech scoring** & feedback for language learning  
-- 📊 Smart City analytics from **IoT + ML** data  
-- 🔁 Cleaner CI/CD workflows for AI + Flutter projects  
+- Advanced RAG architectures  
+- LLM fine-tuning techniques  
+- AI agents & autonomous workflows  
+- Smart City analytics using IoT + Machine Learning  
 
 ---
 
-## 🤝 Let’s Connect  
+# 🤝 Connect With Me
 
 <p align="center">
-  <a href="mailto:fazryx8@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/fajri-abdurahman-ghurri/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/FAJRIAG"><img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="mailto:fazryx8@gmail.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://linkedin.com/in/fajri-abdurahman-ghurri/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/FAJRIAG">
+<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 </p>
 
-📍 **Location**: Indramayu, Indonesia  
+📍 **Location:** Indonesia
 
 ---
 
-## ✨ Fun Bits  
+# ✨ Fun Bits
 
-- 🧪 Sering eksperimen IoT di **Wokwi** & **Tinkercad**  
-- 🎌 Bikin AI buat bantu orang belajar Jepang, tapi malah aku yang ikut dilatih duluan  
-- 🧠 Suka ngulik arsitektur AI/ML & cara bikin inference yang efisien di dunia nyata  
-- 💬 Motto: _"I train AI, and AI trains me."_  
+- 🧪 Experimenting with IoT using Wokwi & Tinkercad  
+- 🎌 Building AI tools for Japanese language learning  
+- 🧠 Curious about modern AI architectures  
+- 💬 Motto: *"I train AI, and AI trains me."*
 
 ---
 
