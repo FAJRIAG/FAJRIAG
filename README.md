@@ -16,7 +16,7 @@
 
 # 👨‍💻 About Me
 
-I'm a **6th semester Smart City Information Systems student** passionate about building intelligent systems using **Artificial Intelligence, Machine Learning, and Generative AI**.
+I'm a **7th semester Smart City Information Systems student** passionate about building intelligent systems using **Artificial Intelligence, Machine Learning, and Generative AI**.
 
 I enjoy combining:
 
