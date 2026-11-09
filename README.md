@@ -15,9 +15,9 @@
       <img src="https://img.shields.io/badge/LINKEDIN-Fajri%20Abdurahman%20Ghurri-0B1120?style=for-the-badge&logo=linkedin&logoColor=38BDF8&labelColor=060911" alt="LinkedIn" />
     </a>
     <a href="https://github.com/FAJRIAG?tab=repositories">
-      <img src="https://img.shields.io/badge/REPOSITORIES-65%2B%20Systems-0B1120?style=for-the-badge&logo=github&logoColor=818CF8&labelColor=060911" alt="Repositories" />
+      <img src="https://img.shields.io/badge/REPOSITORIES-66%20Engineered%20Systems-0B1120?style=for-the-badge&logo=github&logoColor=818CF8&labelColor=060911" alt="Repositories" />
     </a>
-    <img src="https://img.shields.io/badge/STATUS-Open%20for%20Enterprise%20%26%20Consulting-0B1120?style=for-the-badge&logo=statuspage&logoColor=10B981&labelColor=060911" alt="Status" />
+    <img src="https://img.shields.io/badge/CONTRIBUTIONS-11%2C380%2B%20Commits-0B1120?style=for-the-badge&logo=git&logoColor=10B981&labelColor=060911" alt="Contributions" />
   </p>
 </div>
 
@@ -33,7 +33,7 @@
         <strong>AI &amp; Full-Stack Systems Engineer</strong> specializing in the end-to-end architecture, implementation, and deployment of <strong>production Artificial Intelligence pipelines</strong>, <strong>high-concurrency backend microservices</strong>, and <strong>enterprise web/mobile ecosystems</strong>.
       </p>
       <p>
-        Proven track record across <strong>65+ software repositories</strong> bridging deep learning and LLM/RAG systems (<em>PyTorch, TensorFlow, LangChain, Hybrid Vector Search</em>) with low-latency distributed backends in <strong>Go</strong> and <strong>Python (FastAPI)</strong>, full-stack enterprise platforms in <strong>TypeScript / Next.js</strong> and <strong>Laravel 12</strong>, cross-platform mobile clients in <strong>Flutter</strong>, and real-time <strong>Smart City GIS/IoT telemetry</strong>.
+        Proven track record across <strong>66 software repositories</strong> and <strong>11,380+ code contributions</strong> bridging deep learning and LLM/RAG systems (<em>PyTorch, TensorFlow, LangChain, Hybrid Vector Search</em>) with low-latency distributed backends in <strong>Go</strong> and <strong>Python (FastAPI)</strong>, full-stack enterprise platforms in <strong>TypeScript / Next.js</strong> and <strong>Laravel 12</strong>, cross-platform mobile clients in <strong>Flutter</strong>, and real-time <strong>Smart City GIS/IoT telemetry</strong>.
       </p>
     </td>
     <td width="50%" valign="top">
@@ -42,7 +42,7 @@
         <strong>AI &amp; Full-Stack Systems Engineer</strong> dengan spesialisasi pada perancangan arsitektur, pengembangan, dan deployment <strong>sistem Artificial Intelligence skala produksi</strong>, <strong>backend berkonkurensi tinggi</strong>, serta <strong>platform enterprise web &amp; mobile</strong>.
       </p>
       <p>
-        Berpengalaman membangun lebih dari <strong>65+ repositori sistem</strong> yang mengintegrasikan pipeline LLM/RAG dan Computer Vision (<em>PyTorch, YOLOv8, LangChain</em>) dengan infrastruktur backend <strong>Go (Golang)</strong> dan <strong>FastAPI</strong> berlatensi rendah, aplikasi enterprise <strong>TypeScript / Laravel 12</strong>, aplikasi mobile <strong>Flutter</strong>, serta sistem analitik <strong>Smart City GIS &amp; IoT real-time</strong>.
+        Berpengalaman membangun <strong>66 repositori sistem</strong> dengan <strong>11.380+ kontribusi kode</strong> yang mengintegrasikan pipeline LLM/RAG dan Computer Vision (<em>PyTorch, YOLOv8, LangChain</em>) dengan infrastruktur backend <strong>Go (Golang)</strong> dan <strong>FastAPI</strong> berlatensi rendah, aplikasi enterprise <strong>TypeScript / Laravel 12</strong>, aplikasi mobile <strong>Flutter</strong>, serta sistem analitik <strong>Smart City GIS &amp; IoT real-time</strong>.
       </p>
     </td>
   </tr>
@@ -217,12 +217,7 @@ flowchart LR
 ## GitHub Engineering Telemetry & Contribution Activity
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=FAJRIAG&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B1120&title_color=38BDF8&icon_color=6366F1&text_color=CBD5E1& count_private=true" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=FAJRIAG&theme=tokyonight&hide_border=true&background=0B1120&ring=38BDF8&fire=6366F1&currStreakLabel=38BDF8" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=FAJRIAG&bg_color=060911&color=94A3B8&line=38BDF8&point=6366F1&area=true&hide_border=true" alt="Contribution Activity Graph" />
+  <img src="./assets/github-telemetry.svg" width="100%" alt="GitHub Engineering Telemetry — 11,384 Contributions across 66 Repositories" />
 </div>
 
 ---

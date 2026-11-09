@@ -47,17 +47,17 @@
       Multi-Platform &amp; IoT Edge
     </text>
 
-    <g transform="translate(18, 66)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#CBD5E1">
+    <g transform="translate(18, 66)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#CBD5E1">
       <rect x="0" y="0" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="12" y="18">Flutter &amp; Swift Mobile Apps</text>
+      <text x="105" y="18" text-anchor="middle">Flutter &amp; Swift Mobile Apps</text>
 
       <rect x="0" y="36" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="12" y="54">Next.js / TS &amp; Blade Web UI</text>
+      <text x="105" y="54" text-anchor="middle">Next.js / TS &amp; Blade Web UI</text>
 
       <rect x="0" y="72" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="12" y="90">ESP32 Sensors &amp; CCTV Streams</text>
+      <text x="105" y="90" text-anchor="middle">ESP32 Sensors &amp; CCTV Streams</text>
     </g>
-    <text x="18" y="182" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">
+    <text x="123" y="182" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">
       HTTPS · WSS · MQTT · RTSP
     </text>
   </g>
@@ -81,18 +81,18 @@
       High-Concurrency Backends
     </text>
 
-    <g transform="translate(18, 66)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#CBD5E1">
+    <g transform="translate(18, 66)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#CBD5E1">
       <rect x="0" y="0" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="12" y="18">Go Concurrent Worker Core</text>
+      <text x="105" y="18" text-anchor="middle">Go Concurrent Worker Core</text>
 
       <rect x="0" y="36" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="12" y="54">FastAPI Async ML Gateway</text>
+      <text x="105" y="54" text-anchor="middle">FastAPI Async ML Gateway</text>
 
       <rect x="0" y="72" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="12" y="90">Laravel 12 Enterprise Services</text>
+      <text x="105" y="90" text-anchor="middle">Laravel 12 Enterprise Core</text>
     </g>
-    <text x="18" y="182" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">
-      REST · WebSockets · Auth · Rate-Limit
+    <text x="123" y="182" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">
+      REST · WebSockets · RBAC · Queues
     </text>
   </g>
 
@@ -115,17 +115,17 @@
       Applied ML &amp; GenAI Pipelines
     </text>
 
-    <g transform="translate(18, 66)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#CBD5E1">
+    <g transform="translate(18, 66)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#CBD5E1">
       <rect x="0" y="0" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="12" y="18">LLM Router &amp; Hybrid RAG</text>
+      <text x="105" y="18" text-anchor="middle">LLM Router &amp; Hybrid RAG</text>
 
       <rect x="0" y="36" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="12" y="54">PyTorch · YOLOv8 · OpenCV</text>
+      <text x="105" y="54" text-anchor="middle">PyTorch · YOLOv8 · OpenCV</text>
 
       <rect x="0" y="72" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="12" y="90">Speech Phoneme &amp; GIS ML</text>
+      <text x="105" y="90" text-anchor="middle">Speech Phoneme &amp; GIS ML</text>
     </g>
-    <text x="18" y="182" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">
+    <text x="123" y="182" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">
       Embeddings · CNN · Transformers
     </text>
   </g>
@@ -149,17 +149,17 @@
       Data, Cache &amp; Vector Store
     </text>
 
-    <g transform="translate(18, 66)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#CBD5E1">
+    <g transform="translate(18, 66)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#CBD5E1">
       <rect x="0" y="0" width="204" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="12" y="18">PostgreSQL &amp; MySQL Clusters</text>
+      <text x="102" y="18" text-anchor="middle">PostgreSQL &amp; MySQL Clusters</text>
 
       <rect x="0" y="36" width="204" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="12" y="54">Vector Index &amp; Hybrid Search</text>
+      <text x="102" y="54" text-anchor="middle">HNSW Vector Search Index</text>
 
       <rect x="0" y="72" width="204" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="12" y="90">Redis Pub/Sub &amp; Time-Series</text>
+      <text x="102" y="90" text-anchor="middle">Redis Pub/Sub &amp; Time-Series</text>
     </g>
-    <text x="18" y="182" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">
+    <text x="120" y="182" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">
       ACID · HNSW · In-Memory Cache
     </text>
   </g>
