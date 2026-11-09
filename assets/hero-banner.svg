@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgMain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060911"/>
+      <stop offset="50%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#070B14"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="65%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+
+    <linearGradient id="cyanAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#111827" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0B0F19" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="termGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#090D16"/>
+    </linearGradient>
+
+    <radialGradient id="ambientGlow1" cx="20%" cy="15%" r="50%">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#060911" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="ambientGlow2" cx="82%" cy="55%" r="45%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#060911" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="engGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="420" rx="14" fill="url(#bgMain)"/>
+  <rect width="1200" height="420" rx="14" fill="url(#engGrid)"/>
+  <rect width="1200" height="420" rx="14" fill="url(#ambientGlow1)"/>
+  <rect width="1200" height="420" rx="14" fill="url(#ambientGlow2)"/>
+
+  <!-- Outer Precision Border -->
+  <rect x="1" y="1" width="1198" height="418" rx="13" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <rect x="48" y="0.5" width="600" height="2" fill="url(#cyanAccent)"/>
+
+  <!-- ================= LEFT COLUMN: EXECUTIVE IDENTITY & KPI METRICS ================= -->
+
+  <!-- Top Status Badge -->
+  <g transform="translate(48, 36)">
+    <rect x="0" y="0" width="390" height="28" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="15" cy="14" r="4" fill="#10B981">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="28" y="18" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600" fill="#94A3B8" letter-spacing="1">
+      SYSTEMS ARCHITECT · AI, BACKEND &amp; FULL-STACK
+    </text>
+  </g>
+
+  <!-- Full Name -->
+  <text x="48" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="800" fill="url(#titleGrad)" letter-spacing="-0.8">
+    Fajri Abdurahman Ghurri
+  </text>
+
+  <!-- Primary Engineering Title -->
+  <text x="48" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#38BDF8" letter-spacing="0.2">
+    AI &amp; Full-Stack Systems Engineer
+  </text>
+  <text x="348" y="146" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#64748B">
+    // Go · Python · TypeScript · Flutter · PyTorch
+  </text>
+
+  <!-- Executive Summary Text -->
+  <text x="48" y="182" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94A3B8">
+    Engineering production-grade Generative AI &amp; RAG pipelines, high-concurrency Go and
+  </text>
+  <text x="48" y="203" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94A3B8">
+    FastAPI backend architectures, Computer Vision inference services, and Smart City platforms.
+  </text>
+
+  <!-- Architectural Domain Tags -->
+  <g transform="translate(48, 224)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600">
+    <rect x="0" y="0" width="142" height="26" rx="5" fill="#0F172A" stroke="#1E3A5F" stroke-width="1"/>
+    <text x="71" y="17" text-anchor="middle" fill="#38BDF8">LLM &amp; Hybrid RAG</text>
+
+    <rect x="150" y="0" width="156" height="26" rx="5" fill="#0F172A" stroke="#1E3A5F" stroke-width="1"/>
+    <text x="228" y="17" text-anchor="middle" fill="#818CF8">Go &amp; FastAPI Core</text>
+
+    <rect x="314" y="0" width="148" height="26" rx="5" fill="#0F172A" stroke="#1E3A5F" stroke-width="1"/>
+    <text x="388" y="17" text-anchor="middle" fill="#A78BFA">PyTorch &amp; YOLOv8</text>
+
+    <rect x="470" y="0" width="154" height="26" rx="5" fill="#0F172A" stroke="#1E3A5F" stroke-width="1"/>
+    <text x="547" y="17" text-anchor="middle" fill="#34D399">Smart City &amp; IoT</text>
+  </g>
+
+  <!-- 4 KPI Engineering Metric Cards -->
+  <g transform="translate(48, 274)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="148" height="104" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
+    <rect x="0" y="0" width="148" height="2" rx="1" fill="#38BDF8"/>
+    <text x="16" y="34" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="24" font-weight="800" fill="#F8FAFC">65+</text>
+    <text x="16" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#CBD5E1">Engineered Repos</text>
+    <text x="16" y="74" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">AI, Backend, Web</text>
+    <text x="16" y="88" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">&amp; Mobile Systems</text>
+
+    <!-- Card 2 -->
+    <rect x="160" y="0" width="148" height="104" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
+    <rect x="160" y="0" width="148" height="2" rx="1" fill="#6366F1"/>
+    <text x="176" y="34" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="24" font-weight="800" fill="#F8FAFC">&lt;50ms</text>
+    <text x="176" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#CBD5E1">API Core Latency</text>
+    <text x="176" y="74" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">Go Worker Pools</text>
+    <text x="176" y="88" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">&amp; Redis Pub/Sub</text>
+
+    <!-- Card 3 -->
+    <rect x="320" y="0" width="148" height="104" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
+    <rect x="320" y="0" width="148" height="2" rx="1" fill="#A855F7"/>
+    <text x="336" y="34" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="24" font-weight="800" fill="#F8FAFC">4x</text>
+    <text x="336" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#CBD5E1">Global Credentials</text>
+    <text x="336" y="74" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">IBM AI &amp; GenAI,</text>
+    <text x="336" y="88" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">UPenn &amp; Google</text>
+
+    <!-- Card 4 -->
+    <rect x="480" y="0" width="148" height="104" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
+    <rect x="480" y="0" width="148" height="2" rx="1" fill="#10B981"/>
+    <text x="496" y="34" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="24" font-weight="800" fill="#F8FAFC">E2E</text>
+    <text x="496" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#CBD5E1">Full-Lifecycle</text>
+    <text x="496" y="74" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">Edge IoT → Cloud</text>
+    <text x="496" y="88" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">→ Mobile &amp; Web</text>
+  </g>
+
+  <!-- ================= RIGHT COLUMN: PRODUCTION TELEMETRY TERMINAL ================= -->
+  <g transform="translate(704, 36)">
+    <!-- Terminal Window Container -->
+    <rect x="0" y="0" width="448" height="342" rx="10" fill="url(#termGrad)" stroke="#1E293B" stroke-width="1.5"/>
+
+    <!-- Terminal Title Bar -->
+    <path d="M 0 10 Q 0 0 10 0 L 438 0 Q 448 0 448 10 L 448 34 L 0 34 Z" fill="#111827"/>
+    <line x1="0" y1="34" x2="448" y2="34" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Window Controls -->
+    <circle cx="18" cy="17" r="5" fill="#EF4444" opacity="0.85"/>
+    <circle cx="34" cy="17" r="5" fill="#F59E0B" opacity="0.85"/>
+    <circle cx="50" cy="17" r="5" fill="#10B981" opacity="0.85"/>
+
+    <text x="224" y="21" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#64748B">
+      fajri@architect: ~/systems-manifest.yaml
+    </text>
+
+    <!-- Terminal Code Content -->
+    <g transform="translate(20, 58)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">
+      <text x="0" y="0" fill="#64748B"># Production Engineering Manifest</text>
+
+      <text x="0" y="22" fill="#38BDF8">engineer:</text>
+      <text x="72" y="22" fill="#E2E8F0">"Fajri Abdurahman Ghurri"</text>
+
+      <text x="0" y="42" fill="#38BDF8">role:</text>
+      <text x="72" y="42" fill="#34D399">"AI &amp; Full-Stack Systems Engineer"</text>
+
+      <text x="0" y="68" fill="#38BDF8">architecture_domains:</text>
+      <text x="14" y="88" fill="#818CF8">- ai_core:</text>
+      <text x="112" y="88" fill="#CBD5E1">[LLMs, Hybrid-RAG, PyTorch, YOLOv8]</text>
+      <text x="14" y="108" fill="#818CF8">- backend:</text>
+      <text x="112" y="108" fill="#CBD5E1">[Go, FastAPI, Laravel-12, Node.js]</text>
+      <text x="14" y="128" fill="#818CF8">- client_ui:</text>
+      <text x="112" y="128" fill="#CBD5E1">[TypeScript, Next.js, Flutter, Swift]</text>
+      <text x="14" y="148" fill="#818CF8">- data_infra:</text>
+      <text x="112" y="148" fill="#CBD5E1">[PostgreSQL, Redis, VectorDB, Docker]</text>
+      <text x="14" y="168" fill="#818CF8">- edge_iot:</text>
+      <text x="112" y="168" fill="#CBD5E1">[ESP32, C++, MQTT, GIS-Telemetry]</text>
+
+      <text x="0" y="196" fill="#38BDF8">production_clusters:</text>
+      <text x="14" y="216" fill="#94A3B8">jrigpt_rag_engine:</text>
+      <text x="165" y="216" fill="#10B981">ONLINE (Hybrid Vector Search)</text>
+      <text x="14" y="236" fill="#94A3B8">alphastream_go_core:</text>
+      <text x="165" y="236" fill="#10B981">ONLINE (Concurrent Workers)</text>
+      <text x="14" y="256" fill="#94A3B8">smartcity_gis_grid:</text>
+      <text x="165" y="256" fill="#10B981">ONLINE (Real-Time Telemetry)</text>
+    </g>
+  </g>
+</svg>
