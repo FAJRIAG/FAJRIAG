@@ -3,7 +3,7 @@
 <!-- ===================================================================== -->
 
 <div align="center">
-  <img src="./assets/hero-banner.svg" width="100%" alt="Fajri Abdurahman Ghurri — AI & Full-Stack Systems Engineer" />
+  <img src="./assets/hero-banner.svg" width="100%" alt="Fajri Abdurahman Ghurri — Full-Stack Software & AI Systems Engineer" />
   <br/><br/>
 
   <!-- Primary Action & Contact Badges -->
@@ -30,19 +30,19 @@
     <td width="50%" valign="top">
       <h4>🌐 International Profile (EN)</h4>
       <p>
-        <strong>AI &amp; Full-Stack Systems Engineer</strong> specializing in the end-to-end architecture, implementation, and deployment of <strong>production Artificial Intelligence pipelines</strong>, <strong>high-concurrency backend microservices</strong>, and <strong>enterprise web/mobile ecosystems</strong>.
+        <strong>Full-Stack Software &amp; AI Systems Engineer</strong> specializing in the end-to-end architecture, development, and deployment of <strong>scalable enterprise web &amp; mobile applications</strong>, <strong>high-concurrency backend microservices</strong>, and <strong>production Artificial Intelligence pipelines</strong>.
       </p>
       <p>
-        Proven track record across <strong>66 software repositories</strong> and <strong>11,380+ code contributions</strong> bridging deep learning and LLM/RAG systems (<em>PyTorch, TensorFlow, LangChain, Hybrid Vector Search</em>) with low-latency distributed backends in <strong>Go</strong> and <strong>Python (FastAPI)</strong>, full-stack enterprise platforms in <strong>TypeScript / Next.js</strong> and <strong>Laravel 12</strong>, cross-platform mobile clients in <strong>Flutter</strong>, and real-time <strong>Smart City GIS/IoT telemetry</strong>.
+        Proven track record across <strong>66 software repositories</strong> and <strong>11,380+ code contributions</strong> delivering full-lifecycle products—from modern frontend &amp; mobile interfaces (<em>TypeScript, Next.js, React, Tailwind CSS, Flutter, Swift</em>) and resilient backend cores (<em>Go, Laravel 12, FastAPI, Node.js, PostgreSQL, Redis</em>) to enterprise <strong>LLM/RAG platforms, Computer Vision, and Smart City GIS/IoT ecosystems</strong>.
       </p>
     </td>
     <td width="50%" valign="top">
       <h4>🇮🇩 Profil Eksekutif (ID)</h4>
       <p>
-        <strong>AI &amp; Full-Stack Systems Engineer</strong> dengan spesialisasi pada perancangan arsitektur, pengembangan, dan deployment <strong>sistem Artificial Intelligence skala produksi</strong>, <strong>backend berkonkurensi tinggi</strong>, serta <strong>platform enterprise web &amp; mobile</strong>.
+        <strong>Full-Stack Software &amp; AI Systems Engineer</strong> dengan spesialisasi pada perancangan arsitektur, pengembangan, dan deployment <strong>aplikasi web &amp; mobile skala enterprise (Full-Stack)</strong>, <strong>backend berkonkurensi tinggi</strong>, serta <strong>sistem Artificial Intelligence produksi</strong>.
       </p>
       <p>
-        Berpengalaman membangun <strong>66 repositori sistem</strong> dengan <strong>11.380+ kontribusi kode</strong> yang mengintegrasikan pipeline LLM/RAG dan Computer Vision (<em>PyTorch, YOLOv8, LangChain</em>) dengan infrastruktur backend <strong>Go (Golang)</strong> dan <strong>FastAPI</strong> berlatensi rendah, aplikasi enterprise <strong>TypeScript / Laravel 12</strong>, aplikasi mobile <strong>Flutter</strong>, serta sistem analitik <strong>Smart City GIS &amp; IoT real-time</strong>.
+        Berpengalaman membangun <strong>66 repositori sistem</strong> dengan <strong>11.380+ kontribusi kode</strong> yang mencakup pengembangan end-to-end—mulai dari antarmuka frontend &amp; mobile modern (<em>TypeScript, Next.js, React, Flutter, Swift</em>) dan arsitektur backend tangguh (<em>Go, Laravel 12, FastAPI, Node.js, PostgreSQL, Redis</em>) hingga integrasi <strong>pipeline LLM/RAG, Computer Vision, dan Smart City GIS/IoT</strong>.
       </p>
     </td>
   </tr>
@@ -103,7 +103,25 @@ flowchart LR
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>1. Generative AI, LLMs &amp; Retrieval Architecture</h3>
+      <h3>1. Full-Stack Web, Enterprise SaaS &amp; Mobile Engineering</h3>
+      <ul>
+        <li><strong>Modern Frontend &amp; Full-Stack Web:</strong> Architected responsive, high-performance web applications, SaaS dashboards, and digital platforms using <code>TypeScript</code>, <code>Next.js</code>, <code>React</code>, and <code>Laravel 12</code> (<code>Linkswear</code>, <code>Akugrow</code>, <code>SignalCore</code>, <code>token.fajriag.my.id</code>).</li>
+        <li><strong>Enterprise ERP, E-Commerce &amp; Billing Systems:</strong> Built end-to-end commercial platforms including multi-tenant office/ERP systems (<code>kantor</code>), e-commerce storefronts (<code>Fajthia-Commerce</code>, <code>vps-store</code>), ISP billing automation (<code>pembayaran-wifi</code>), and Learning Management Systems (<code>LMS</code>, <code>BenkyouHub</code>).</li>
+        <li><strong>Cross-Platform &amp; Native Mobile:</strong> Engineered production mobile applications in <code>Flutter (Dart)</code> with Clean Architecture and native iOS applications in <code>Swift</code> (<code>First-Ios-Mobile</code>).</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>2. High-Concurrency Backend &amp; Distributed Systems</h3>
+      <ul>
+        <li><strong>Go (Golang) Execution Engines:</strong> Architected concurrent backend services and automated trading/business orchestration cores (<code>AlphaStream</code>, <code>BusinessOS</code>, <code>DAGANG-BOT-ID</code>) utilizing goroutine worker pools, non-blocking I/O, and WebSocket streams.</li>
+        <li><strong>Asynchronous Python &amp; Node.js APIs:</strong> Deployed low-latency <code>FastAPI</code>, <code>Flask</code>, and <code>Node.js</code> microservices for real-time data processing, media streaming (<code>KuyNonton</code>, <code>dramabox</code>), and ML inference gateways.</li>
+        <li><strong>Database Architecture &amp; Security:</strong> Designed normalized relational schemas (<code>PostgreSQL</code>, <code>MySQL</code>), <code>Redis</code> caching &amp; pub/sub layers, RBAC authentication, and containerized <code>Docker</code> deployments.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>3. Generative AI, LLMs &amp; Retrieval Architecture</h3>
       <ul>
         <li><strong>Hybrid RAG Pipelines:</strong> Engineered semantic document intelligence systems (<code>RAG-DocSearch</code>, <code>NeuraSearch</code>) combining dense vector embeddings with lexical retrieval, dynamic chunking, and cross-encoder re-ranking.</li>
         <li><strong>Multi-Model LLM Orchestration:</strong> Built unified AI gateways and agentic workspaces (<code>JriGPT Platform</code>, <code>DASBAORD9ROUTER</code>) with automated provider failover, token streaming, and structured JSON output enforcement.</li>
@@ -111,29 +129,11 @@ flowchart LR
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>2. High-Concurrency Backend &amp; Distributed Systems</h3>
+      <h3>4. Computer Vision, Speech AI &amp; Smart City GIS/IoT</h3>
       <ul>
-        <li><strong>Go (Golang) Execution Engines:</strong> Architected concurrent backend services and automated trading/business orchestration cores (<code>AlphaStream</code>, <code>BusinessOS</code>, <code>DAGANG-BOT-ID</code>) utilizing goroutine worker pools, non-blocking I/O, and WebSocket streams.</li>
-        <li><strong>Asynchronous Python Microservices:</strong> Deployed low-latency <code>FastAPI</code> inference servers for real-time speech evaluation, sentiment classification, and computer vision pipelines.</li>
-        <li><strong>Enterprise Web &amp; API Security:</strong> Full-lifecycle system design in <code>Laravel 12</code> and <code>TypeScript/Node.js</code> with RBAC, rate-limiting, Redis caching, and transactional integrity.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>3. Computer Vision, Speech AI &amp; Deep Learning</h3>
-      <ul>
-        <li><strong>Industrial Safety Vision (YOLOv8 &amp; OpenCV):</strong> Real-time PPE compliance detection (<code>Safety-helmet-detector</code>) capable of multi-object tracking for helmets and high-visibility vests across live video streams.</li>
-        <li><strong>Edge &amp; Mobile Transfer Learning:</strong> Fine-tuned <code>MobileNetV2</code> and custom CNN architectures in PyTorch/TensorFlow for on-device agricultural pathology diagnostics and urban waste classification.</li>
-        <li><strong>Acoustic &amp; NLP Intelligence:</strong> Engineered phoneme-level pronunciation scoring APIs (<code>Nihongo AI</code>) and Indonesian public sentiment analytics pipelines.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>4. Smart City GIS, Analytics &amp; Embedded IoT</h3>
-      <ul>
-        <li><strong>Geospatial &amp; Hazard Intelligence:</strong> Built wildfire hotspot prediction and urban spatial planning platforms (<code>Karhutla-Indonesia</code>, <code>SITARU</code>, <code>geo-dcm</code>) integrating machine learning with interactive GIS mapping.</li>
-        <li><strong>Executive Decision Support (DSS):</strong> Engineered multi-criteria decision analysis systems implementing <code>AHP</code>, <code>TOPSIS</code>, and <code>SMART</code> algorithms alongside regional KPI dashboards (<code>indramayu-analytics-dashboard</code>).</li>
-        <li><strong>Edge-to-Cloud IoT Telemetry:</strong> Hardware-level firmware in <code>C++ / ESP32</code> streaming sensor telemetry via <code>MQTT</code> and <code>Node-RED</code> into time-series monitoring dashboards.</li>
+        <li><strong>Computer Vision &amp; Speech AI:</strong> Real-time industrial PPE compliance detection using <code>YOLOv8 &amp; OpenCV</code> (<code>Safety-helmet-detector</code>), mobile <code>MobileNetV2</code> agricultural diagnostics, and acoustic pronunciation scoring APIs (<code>Nihongo AI</code>).</li>
+        <li><strong>Geospatial &amp; Decision Support Systems:</strong> Built wildfire hotspot prediction and urban spatial planning platforms (<code>Karhutla-Indonesia</code>, <code>SITARU</code>, <code>geo-dcm</code>) plus multi-criteria DSS engines (<code>AHP</code>, <code>TOPSIS</code>, <code>SMART</code>).</li>
+        <li><strong>Edge-to-Cloud IoT Telemetry:</strong> Hardware-level firmware in <code>C++ / ESP32</code> streaming sensor telemetry via <code>MQTT</code> and <code>Node-RED</code> into real-time analytical dashboards.</li>
       </ul>
     </td>
   </tr>
@@ -143,62 +143,73 @@ flowchart LR
 
 ## Featured Engineering Case Studies
 
-### 01 · JriGPT Platform, NeuraSearch & Hybrid RAG Engine
-> **Domain:** `Generative AI` · `Enterprise RAG` · `LLM Gateway`  
-> **Architecture Stack:** `Python` · `FastAPI` · `LangChain` · `Vector DB` · `Laravel 12` · `Redis`
+### 01 · Enterprise Full-Stack SaaS, E-Commerce & Digital Platforms (`BusinessOS`, `Linkswear`, `Kantor`, `Fajthia-Commerce`)
+> **Domain:** `Full-Stack Software Engineering` · `Enterprise SaaS & ERP` · `E-Commerce & FinTech`  
+> **Architecture Stack:** `TypeScript` · `Next.js / React` · `Laravel 12` · `Go` · `PostgreSQL / MySQL` · `Redis` · `Tailwind CSS`
 
-- **Engineering Challenge:** Standard LLM integrations suffer from hallucination on proprietary enterprise documents, high token latency, and single-provider downtime risks.
-- **Architectural Solution:** Designed a modular Generative AI platform pairing a **Hybrid Retrieval-Augmented Generation (RAG)** pipeline (dense vector similarity + keyword filtering) with a multi-provider LLM routing layer and asynchronous streaming responses.
-- **Key Technical Capabilities:** Context-window optimization, automated document ingestion & chunk indexing, semantic similarity verification (`SemantiCheck`), and role-based enterprise workspace management.
+- **Engineering Challenge:** Modern commercial and enterprise workflows require cohesive end-to-end software systems that combine responsive, high-conversion user interfaces with transactional backend reliability, real-time inventory/billing state, and role-based access control.
+- **Architectural Solution:** Engineered a suite of full-stack production platforms spanning enterprise office & operations management (`kantor`, `BusinessOS`), high-traffic digital commerce & automated billing (`Linkswear`, `Fajthia-Commerce`, `vps-store`, `pembayaran-wifi`), and interactive education/media ecosystems (`LMS`, `BenkyouHub`, `KuyNonton`, `dramabox`).
+- **Key Technical Capabilities:** Modular full-stack architecture, SSR/CSR frontend optimization, RESTful & WebSocket API integration, automated payment/billing workflows, Redis session/query caching, and multi-role administrative dashboards.
 
 ---
 
-### 02 · AlphaStream, BusinessOS & High-Frequency Automation Core
+### 02 · AlphaStream & High-Concurrency Go Backend Core (`AlphaStream`, `DAGANG-BOT-ID`, `SignalCore`)
 > **Domain:** `Distributed Backend` · `Concurrent Systems` · `Real-Time Automation`  
-> **Architecture Stack:** `Go (Golang)` · `PostgreSQL` · `Redis Pub/Sub` · `REST & WebSockets` · `Docker`
+> **Architecture Stack:** `Go (Golang)` · `TypeScript` · `PostgreSQL` · `Redis Pub/Sub` · `REST & WebSockets` · `Docker`
 
 - **Engineering Challenge:** High-throughput event ingestion and automated execution workflows require deterministic low latency and strict concurrency safety without memory bloat.
-- **Architectural Solution:** Engineered the core backend services in **Go**, leveraging bounded goroutine worker pools, channel-based pipelines, Redis in-memory state synchronization, and connection pooling.
+- **Architectural Solution:** Engineered the core backend services in **Go**, leveraging bounded goroutine worker pools, channel-based pipelines, Redis in-memory state synchronization, and connection pooling paired with TypeScript real-time monitoring interfaces.
 - **Key Technical Capabilities:** Sub-50ms internal dispatch overhead, graceful fault recovery, real-time bidirectional WebSocket telemetry, and modular microservice boundaries.
 
 ---
 
-### 03 · Karhutla-Indonesia, SITARU & Smart City Geo-Intelligence
-> **Domain:** `Smart City Infrastructure` · `Geospatial AI` · `Public-Sector Analytics`  
+### 03 · JriGPT Platform, NeuraSearch & Hybrid RAG Engine (`jrigpt-platform`, `RAG-DocSearch`, `DASBAORD9ROUTER`)
+> **Domain:** `Full-Stack AI Platform` · `Enterprise RAG` · `Multi-LLM Gateway`  
+> **Architecture Stack:** `Python` · `FastAPI` · `LangChain` · `Vector DB` · `Laravel 12` · `TypeScript` · `Redis`
+
+- **Engineering Challenge:** Standard LLM integrations suffer from hallucination on proprietary enterprise documents, high token latency, and single-provider downtime risks.
+- **Architectural Solution:** Designed a full-stack Generative AI platform pairing a **Hybrid Retrieval-Augmented Generation (RAG)** pipeline (dense vector similarity + keyword filtering) with a multi-provider LLM routing gateway and an intuitive full-stack web workspace.
+- **Key Technical Capabilities:** Context-window optimization, automated document ingestion & chunk indexing, semantic similarity verification (`SemantiCheck`), and multi-provider API key/account orchestration (`AG_SWITCH_ACCOUNT`).
+
+---
+
+### 04 · Karhutla-Indonesia, SITARU & Smart City Geo-Intelligence (`Karhutla-Indonesia`, `SITARU`, `-dashboard-ecoedu`)
+> **Domain:** `Full-Stack GIS` · `Smart City Infrastructure` · `Public-Sector Analytics`  
 > **Architecture Stack:** `Python` · `Scikit-learn` · `TypeScript` · `Laravel` · `GeoJSON / GIS` · `MySQL`
 
-- **Engineering Challenge:** Regional governments and environmental agencies require unified platforms to correlate spatial GIS layers, historical hazard data, and public health/education KPIs in real time.
-- **Architectural Solution:** Built integrated geospatial intelligence platforms (`Karhutla-Indonesia`, `SITARU`, `indramayu-analytics-dashboard`) combining Python predictive modeling with interactive TypeScript/Blade analytical dashboards.
+- **Engineering Challenge:** Regional governments and environmental agencies require unified full-stack platforms to correlate spatial GIS layers, historical hazard data, and public health/education KPIs in real time.
+- **Architectural Solution:** Built integrated geospatial intelligence platforms (`Karhutla-Indonesia`, `SITARU`, `indramayu-analytics-dashboard`) combining Python predictive modeling with interactive TypeScript and Laravel analytical dashboards.
 - **Key Technical Capabilities:** Automated spatial risk clustering, interactive polygon/hotspot rendering, multi-criteria decision support (`AHP` / `TOPSIS` / `SMART`), and executive reporting exports.
 
 ---
 
-### 04 · Nihongo AI, Acoustic Scoring API & Industrial Computer Vision Suite
-> **Domain:** `Applied Deep Learning` · `Speech AI` · `Computer Vision` · `Cross-Platform Mobile`  
-> **Architecture Stack:** `PyTorch` · `YOLOv8` · `MobileNetV2` · `OpenCV` · `FastAPI` · `Flutter (Clean Architecture)`
+### 05 · Nihongo AI, Cross-Platform Mobile & Industrial Vision Suite (`Nihongo AI`, `Safety-helmet-detector`, `First-Ios-Mobile`)
+> **Domain:** `Mobile Engineering (Flutter & iOS)` · `Speech AI` · `Computer Vision`  
+> **Architecture Stack:** `Flutter (Dart)` · `Swift (iOS)` · `FastAPI` · `PyTorch` · `YOLOv8` · `MobileNetV2` · `OpenCV`
 
-- **Engineering Challenge:** Delivering complex deep learning inference (speech phoneme evaluation and real-time video object detection) to end-user mobile and edge devices with minimal latency.
-- **Architectural Solution:** Decoupled heavy ML inference into optimized **FastAPI/PyTorch** microservices while implementing **Clean Architecture** in the **Flutter** mobile client and lightweight `MobileNetV2` models for mobile agricultural diagnostics.
-- **Key Technical Capabilities:** Real-time frame-by-frame PPE safety compliance detection (`Safety-helmet-detector`), automated acoustic pronunciation scoring, and responsive cross-platform UI state management.
+- **Engineering Challenge:** Delivering responsive mobile user experiences alongside complex deep learning inference (speech phoneme evaluation and real-time video object detection) with minimal latency.
+- **Architectural Solution:** Implemented **Clean Architecture** across **Flutter** and native **Swift** mobile clients, decoupled from optimized **FastAPI/PyTorch** inference microservices and lightweight on-device `MobileNetV2` models.
+- **Key Technical Capabilities:** Real-time frame-by-frame PPE safety compliance detection (`Safety-helmet-detector`), automated acoustic pronunciation scoring, and reactive mobile state management.
 
 ---
 
 ## Production Technology Matrix
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=go,python,ts,js,php,dart,cpp,pytorch,tensorflow,sklearn,opencv,fastapi&perline=12" alt="Core Languages & AI Stack" />
+  <img src="https://skillicons.dev/icons?i=ts,js,nextjs,react,tailwind,laravel,php,go,python,fastapi,nodejs,flutter&perline=12" alt="Full-Stack Web, Backend & Mobile Stack" />
   <br/>
-  <img src="https://skillicons.dev/icons?i=laravel,nodejs,nextjs,react,flutter,swift,postgres,mysql,redis,docker,linux,git&perline=12" alt="Full-Stack, Mobile & Cloud Infrastructure" />
+  <img src="https://skillicons.dev/icons?i=dart,swift,cpp,pytorch,tensorflow,sklearn,opencv,postgres,mysql,redis,docker,git&perline=12" alt="Mobile, AI/ML & Cloud Infrastructure" />
 </div>
 
 <br/>
 
 | Architectural Layer | Production Technologies, Frameworks & Protocols |
 | :--- | :--- |
-| **AI, LLM & Deep Learning** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) `YOLOv8` · `LangChain` · `Hybrid RAG` · `Transformers / PEFT` · `MobileNetV2` · `NLP & Speech AI` |
-| **Backend & Distributed Core** | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel_12-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) `Python 3.12+` · `Flask` · `RESTful APIs` · `WebSockets` · `Concurrent Worker Pools` |
-| **Frontend, Web & Mobile** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) `Dart` · `Clean Architecture` |
-| **Data, Infra & Embedded IoT** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) `Vector Databases` · `Firebase` · `ESP32 / C++` · `MQTT` · `Node-RED` |
+| **Frontend & Full-Stack Web** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Laravel](https://img.shields.io/badge/Laravel_12-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) `Blade` · `HTML5 / CSS3` · `SSR / SPA Architecture` |
+| **Backend & Distributed Core** | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![PHP](https://img.shields.io/badge/PHP_8.3+-777BB4?style=flat-square&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/Python_3.12+-3776AB?style=flat-square&logo=python&logoColor=white) `Flask` · `RESTful APIs` · `WebSockets` · `Microservices` · `Worker Pools` |
+| **Mobile Engineering** | ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![Swift](https://img.shields.io/badge/Swift_iOS-F05138?style=flat-square&logo=swift&logoColor=white) `Clean Architecture` · `State Management` · `On-Device ML Inference` |
+| **AI, LLM & Deep Learning** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) `YOLOv8` · `LangChain` · `Hybrid RAG` · `Transformers / PEFT` · `MobileNetV2` · `Speech AI` |
+| **Data, Cloud & Embedded IoT** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) `Vector DB` · `Firebase` · `Git / CI-CD` · `ESP32 / C++` · `MQTT` · `Node-RED` |
 
 ---
 
@@ -210,7 +221,7 @@ flowchart LR
 | **IBM AI Engineering Professional Certificate** | **IBM** | Deep Learning Architectures, CNNs, RNNs, Collaborative Filtering, PyTorch, TensorFlow, Keras & Scalable ML Pipelines |
 | **Machine Learning, AI & Statistics Specialization** | **University of Pennsylvania** | Supervised & Unsupervised Learning, Statistical Inference, Probability Modeling, Regression & Algorithmic Optimization |
 | **Applied AI & Advanced Prompt Engineering** | **Google** | Production LLM Workflow Design, Structured Output Engineering, Context Optimization & Enterprise AI Automation |
-| **B.App.Sc. (D4) in Smart City Information Systems** | **Politeknik Negeri Indramayu** | Software Systems Architecture, Geospatial Information Systems (GIS), IoT Sensor Networks, Decision Support Systems (DSS) & Applied AI |
+| **B.App.Sc. (D4) in Smart City Information Systems** | **Politeknik Negeri Indramayu** | Full-Stack Software Engineering, Enterprise Information Systems, Geospatial Information Systems (GIS), IoT Networks & Decision Support Systems (DSS) |
 
 ---
 
@@ -224,7 +235,7 @@ flowchart LR
 
 ## Executive Contact & Engineering Inquiries
 
-Available for **AI & LLM Systems Architecture**, **Backend & Full-Stack Engineering (Go / Python / TypeScript / Laravel / Flutter)**, and **Enterprise Technical Consulting**.
+Available for **Full-Stack Software Engineering (TypeScript / Next.js / Laravel / Go / Flutter)**, **AI & LLM Systems Architecture**, and **Enterprise Technical Consulting**.
 
 - **Direct Email:** [fazryx8@gmail.com](mailto:fazryx8@gmail.com)
 - **LinkedIn Profile:** [linkedin.com/in/fajri-abdurahman-ghurri](https://linkedin.com/in/fajri-abdurahman-ghurri/)
