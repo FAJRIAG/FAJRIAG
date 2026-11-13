@@ -8,8 +8,8 @@
 
   <!-- Primary Action & Contact Badges -->
   <p align="center">
-    <a href="mailto:fazryx8@gmail.com">
-      <img src="https://img.shields.io/badge/EMAIL-fazryx8%40gmail.com-0B1120?style=for-the-badge&logo=gmail&logoColor=38BDF8&labelColor=060911" alt="Email" />
+    <a href="mailto:fajriabdurahmanghurri@gmail.com">
+      <img src="https://img.shields.io/badge/EMAIL-fajriabdurahmanghurri%40gmail.com-0B1120?style=for-the-badge&logo=gmail&logoColor=38BDF8&labelColor=060911" alt="Email" />
     </a>
     <a href="https://linkedin.com/in/fajri-abdurahman-ghurri/">
       <img src="https://img.shields.io/badge/LINKEDIN-Fajri%20Abdurahman%20Ghurri-0B1120?style=for-the-badge&logo=linkedin&logoColor=38BDF8&labelColor=060911" alt="LinkedIn" />
@@ -237,7 +237,7 @@ flowchart LR
 
 Available for **Full-Stack Software Engineering (TypeScript / Next.js / Laravel / Go / Flutter)**, **AI & LLM Systems Architecture**, and **Enterprise Technical Consulting**.
 
-- **Direct Email:** [fazryx8@gmail.com](mailto:fazryx8@gmail.com)
+- **Direct Email:** [fajriabdurahmanghurri@gmail.com](mailto:fajriabdurahmanghurri@gmail.com)
 - **LinkedIn Profile:** [linkedin.com/in/fajri-abdurahman-ghurri](https://linkedin.com/in/fajri-abdurahman-ghurri/)
 - **GitHub Portfolio:** [github.com/FAJRIAG](https://github.com/FAJRIAG)
 - **Base Location:** Indonesia (Available for Remote Global & On-Site Enterprise Roles)
