@@ -222,7 +222,7 @@
       </circle>
     </g>
 
-    <!-- ================= TIER 4: DATA, VECTOR & TELEMETRY STORE ================= -->
+    <!-- ================= TIER 4: DEVOPS, CLOUD INFRA & DATA LAYER ================= -->
     <g transform="translate(924, 66)">
       <rect x="0" y="0" width="240" height="200" rx="10" fill="url(#nodeBg)" stroke="#1E293B" stroke-width="1.2">
         <animate attributeName="stroke" values="#1E293B;#10B981;#1E293B" dur="3.6s" begin="2.7s" repeatCount="indefinite"/>
@@ -232,24 +232,24 @@
         <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" begin="1.35s" repeatCount="indefinite"/>
       </circle>
       <text x="18" y="28" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#10B981">
-        04 // PERSISTENCE LAYER
+        04 // DEVOPS &amp; DATA INFRA
       </text>
       <text x="18" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700" fill="#F8FAFC">
-        Data, Cache &amp; Vector Store
+        Cloud, CI/CD &amp; Datastores
       </text>
 
       <g transform="translate(18, 66)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#CBD5E1">
         <rect x="0" y="0" width="204" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-        <text x="102" y="18" text-anchor="middle">PostgreSQL &amp; MySQL Clusters</text>
+        <text x="102" y="18" text-anchor="middle">Docker · K8s · CI/CD Pipelines</text>
 
         <rect x="0" y="36" width="204" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-        <text x="102" y="54" text-anchor="middle">HNSW Vector Search Index</text>
+        <text x="102" y="54" text-anchor="middle">PostgreSQL · Redis · VectorDB</text>
 
         <rect x="0" y="72" width="204" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-        <text x="102" y="90" text-anchor="middle">Redis Pub/Sub &amp; Time-Series</text>
+        <text x="102" y="90" text-anchor="middle">Linux VPS · Nginx · Cloudflare</text>
       </g>
       <text x="120" y="184" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">
-        ACID · HNSW · In-Memory Cache
+        SRE · Containers · High-Availability
       </text>
     </g>
   </g>

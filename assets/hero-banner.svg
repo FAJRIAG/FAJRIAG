@@ -15,10 +15,6 @@
         85% { opacity: 0.35; }
         100% { transform: translateY(290px); opacity: 0; }
       }
-      @keyframes cardBarPulse {
-        0%, 100% { opacity: 0.65; }
-        50% { opacity: 1; }
-      }
       @keyframes barLoad1 {
         0%, 100% { width: 92px; }
         50% { width: 115px; }
@@ -129,14 +125,14 @@
 
     <!-- Top Status Badge with Expanding Radar Ping -->
     <g transform="translate(44, 34)">
-      <rect x="0" y="0" width="468" height="28" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <rect x="0" y="0" width="510" height="28" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
       <circle cx="16" cy="14" r="4" fill="#10B981">
         <animate attributeName="r" values="4;11" dur="1.8s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0.7;0" dur="1.8s" repeatCount="indefinite"/>
       </circle>
       <circle cx="16" cy="14" r="4" fill="#10B981"/>
       <text x="30" y="18" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.8" font-weight="600" fill="#94A3B8" letter-spacing="0.8">
-        FULL-STACK SOFTWARE ENGINEER · AI &amp; SYSTEMS ARCHITECT
+        FULL-STACK · AI SYSTEMS · DEVOPS &amp; CLOUD INFRASTRUCTURE
       </text>
     </g>
 
@@ -146,17 +142,17 @@
     </text>
 
     <!-- Primary Engineering Title + Inline Stack via tspan -->
-    <text x="44" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#38BDF8">
-      Full-Stack Software &amp; AI Systems Engineer
-      <tspan dx="8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="500" fill="#64748B">// TS · Go · Laravel · Python</tspan>
+    <text x="44" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#38BDF8">
+      Full-Stack, AI Systems &amp; DevOps Engineer
+      <tspan dx="8" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.2" font-weight="500" fill="#64748B">// TS · Go · Laravel · Docker</tspan>
     </text>
 
     <!-- Executive Summary Text -->
     <text x="44" y="176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" fill="#94A3B8">
-      Engineering scalable Full-Stack Web, SaaS &amp; Mobile platforms alongside production
+      Engineering scalable Full-Stack Web &amp; Mobile platforms, production AI/RAG pipelines,
     </text>
     <text x="44" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" fill="#94A3B8">
-      Generative AI/RAG pipelines, high-concurrency Go backends, and Smart City systems.
+      high-concurrency Go backends, and automated DevOps &amp; Cloud server infrastructure.
     </text>
 
     <!-- Architectural Domain Tags with Subtle Animated Border Pulse -->
@@ -164,22 +160,22 @@
       <rect x="0" y="0" width="150" height="28" rx="5" fill="#0F172A" stroke="#0EA5E9" stroke-width="1">
         <animate attributeName="stroke-opacity" values="0.35;0.95;0.35" dur="3s" begin="0s" repeatCount="indefinite"/>
       </rect>
-      <text x="75" y="18" text-anchor="middle" fill="#38BDF8">Full-Stack Web/SaaS</text>
+      <text x="75" y="18" text-anchor="middle" fill="#38BDF8">Full-Stack Web/App</text>
 
-      <rect x="158" y="0" width="150" height="28" rx="5" fill="#0F172A" stroke="#6366F1" stroke-width="1">
+      <rect x="158" y="0" width="146" height="28" rx="5" fill="#0F172A" stroke="#6366F1" stroke-width="1">
         <animate attributeName="stroke-opacity" values="0.35;0.95;0.35" dur="3s" begin="0.75s" repeatCount="indefinite"/>
       </rect>
-      <text x="233" y="18" text-anchor="middle" fill="#818CF8">Go &amp; Laravel Core</text>
+      <text x="231" y="18" text-anchor="middle" fill="#818CF8">Go &amp; Laravel API</text>
 
-      <rect x="316" y="0" width="146" height="28" rx="5" fill="#0F172A" stroke="#A855F7" stroke-width="1">
+      <rect x="312" y="0" width="146" height="28" rx="5" fill="#0F172A" stroke="#A855F7" stroke-width="1">
         <animate attributeName="stroke-opacity" values="0.35;0.95;0.35" dur="3s" begin="1.5s" repeatCount="indefinite"/>
       </rect>
-      <text x="389" y="18" text-anchor="middle" fill="#A78BFA">GenAI · LLM · RAG</text>
+      <text x="385" y="18" text-anchor="middle" fill="#A78BFA">GenAI · LLM · RAG</text>
 
-      <rect x="470" y="0" width="146" height="28" rx="5" fill="#0F172A" stroke="#10B981" stroke-width="1">
+      <rect x="466" y="0" width="150" height="28" rx="5" fill="#0F172A" stroke="#10B981" stroke-width="1">
         <animate attributeName="stroke-opacity" values="0.35;0.95;0.35" dur="3s" begin="2.25s" repeatCount="indefinite"/>
       </rect>
-      <text x="543" y="18" text-anchor="middle" fill="#34D399">Flutter &amp; iOS Apps</text>
+      <text x="541" y="18" text-anchor="middle" fill="#34D399">DevOps &amp; Cloud</text>
     </g>
 
     <!-- 4 KPI Engineering Metric Cards with Live Animated Telemetry Bars -->
@@ -189,8 +185,8 @@
       <rect x="0" y="0" width="145" height="2.5" rx="1" fill="#38BDF8"/>
       <text x="14" y="34" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="22" font-weight="800" fill="#F8FAFC">11,380+</text>
       <text x="14" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#CBD5E1">Contributions</text>
-      <text x="14" y="73" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">Full-Stack, Backend</text>
-      <text x="14" y="87" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">&amp; AI Engineering</text>
+      <text x="14" y="73" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">Full-Stack, AI &amp;</text>
+      <text x="14" y="87" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">DevOps Delivery</text>
       <rect x="14" y="102" width="117" height="4" rx="2" fill="#1E293B"/>
       <rect class="bar-1" x="14" y="102" width="102" height="4" rx="2" fill="#38BDF8"/>
 
@@ -199,18 +195,18 @@
       <rect x="157" y="0" width="145" height="2.5" rx="1" fill="#6366F1"/>
       <text x="171" y="34" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="22" font-weight="800" fill="#F8FAFC">66</text>
       <text x="171" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#CBD5E1">Engineered Repos</text>
-      <text x="171" y="73" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">SaaS, E-Commerce,</text>
-      <text x="171" y="87" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">APIs &amp; AI Systems</text>
+      <text x="171" y="73" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">SaaS, APIs, Cloud</text>
+      <text x="171" y="87" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">&amp; AI Systems</text>
       <rect x="171" y="102" width="117" height="4" rx="2" fill="#1E293B"/>
       <rect class="bar-2" x="171" y="102" width="96" height="4" rx="2" fill="#6366F1"/>
 
       <!-- Card 3 -->
       <rect x="314" y="0" width="145" height="122" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
       <rect x="314" y="0" width="145" height="2.5" rx="1" fill="#A855F7"/>
-      <text x="328" y="34" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="22" font-weight="800" fill="#F8FAFC">&lt;50ms</text>
-      <text x="328" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#CBD5E1">API Core Latency</text>
-      <text x="328" y="73" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">Go Worker Pools</text>
-      <text x="328" y="87" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">&amp; Redis Pub/Sub</text>
+      <text x="328" y="34" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="22" font-weight="800" fill="#F8FAFC">99.9%</text>
+      <text x="328" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#CBD5E1">Infra &amp; API SLA</text>
+      <text x="328" y="73" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">Docker, CI/CD &amp;</text>
+      <text x="328" y="87" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">Go Worker Pools</text>
       <rect x="328" y="102" width="117" height="4" rx="2" fill="#1E293B"/>
       <rect class="bar-3" x="328" y="102" width="100" height="4" rx="2" fill="#A855F7"/>
 
@@ -218,9 +214,9 @@
       <rect x="471" y="0" width="145" height="122" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
       <rect x="471" y="0" width="145" height="2.5" rx="1" fill="#10B981"/>
       <text x="485" y="34" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="22" font-weight="800" fill="#F8FAFC">E2E</text>
-      <text x="485" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#CBD5E1">Full-Stack Scope</text>
-      <text x="485" y="73" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">UI/UX → API Core</text>
-      <text x="485" y="87" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">→ Cloud &amp; AI Engine</text>
+      <text x="485" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#CBD5E1">Code to Cloud</text>
+      <text x="485" y="73" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">UI/UX → Backend</text>
+      <text x="485" y="87" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#64748B">→ AI → Cloud VPS</text>
       <rect x="485" y="102" width="117" height="4" rx="2" fill="#1E293B"/>
       <rect class="bar-4" x="485" y="102" width="108" height="4" rx="2" fill="#10B981"/>
     </g>
@@ -243,12 +239,12 @@
       <circle cx="50" cy="17" r="5" fill="#10B981" opacity="0.85"/>
 
       <text x="232" y="21" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#64748B">
-        fajri@architect: ~/fullstack-ai-manifest.yaml
+        fajri@architect: ~/cluster-manifest.yaml
       </text>
 
       <!-- Terminal Code Content -->
       <g transform="translate(20, 56)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">
-        <text x="0" y="0" fill="#64748B"># Full-Stack &amp; AI Engineering Manifest</text>
+        <text x="0" y="0" fill="#64748B"># Full-Stack, AI &amp; DevOps Infrastructure</text>
 
         <text x="0" y="21">
           <tspan fill="#38BDF8">engineer:</tspan>
@@ -257,40 +253,40 @@
 
         <text x="0" y="41">
           <tspan fill="#38BDF8">role:</tspan>
-          <tspan dx="35" fill="#34D399">"Full-Stack Software &amp; AI Engineer"</tspan>
+          <tspan dx="35" fill="#34D399">"Full-Stack, AI &amp; DevOps Engineer"</tspan>
         </text>
 
         <text x="0" y="65" fill="#38BDF8">production_stack:</text>
         <text x="12" y="84">
           <tspan fill="#818CF8">frontend:</tspan>
-          <tspan dx="21" fill="#CBD5E1">[TypeScript, Next.js, React, Tailwind]</tspan>
+          <tspan dx="21" fill="#CBD5E1">[TypeScript, Next.js, React, Flutter]</tspan>
         </text>
         <text x="12" y="103">
           <tspan fill="#818CF8">backend:</tspan>
           <tspan dx="28" fill="#CBD5E1">[Go, Laravel-12, FastAPI, Node.js]</tspan>
         </text>
         <text x="12" y="122">
-          <tspan fill="#818CF8">mobile:</tspan>
-          <tspan dx="35" fill="#CBD5E1">[Flutter, Dart, Swift-iOS, Clean-Arch]</tspan>
-        </text>
-        <text x="12" y="141">
           <tspan fill="#818CF8">ai_engine:</tspan>
           <tspan dx="14" fill="#CBD5E1">[LLMs, Hybrid-RAG, PyTorch, YOLOv8]</tspan>
+        </text>
+        <text x="12" y="141">
+          <tspan fill="#818CF8">devops_sre:</tspan>
+          <tspan dx="7" fill="#CBD5E1">[Docker, K8s, CI/CD, Nginx, Linux]</tspan>
         </text>
         <text x="12" y="160">
           <tspan fill="#818CF8">datastores:</tspan>
           <tspan dx="7" fill="#CBD5E1">[PostgreSQL, MySQL, Redis, VectorDB]</tspan>
         </text>
 
-        <text x="0" y="186" fill="#38BDF8">shipped_ecosystems:</text>
+        <text x="0" y="186" fill="#38BDF8">live_infrastructure:</text>
 
         <!-- Cluster 1 with Pulsing Status Dot -->
         <circle cx="16" cy="201" r="3.5" fill="#10B981">
           <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" begin="0s" repeatCount="indefinite"/>
         </circle>
         <text x="26" y="205">
-          <tspan fill="#94A3B8">enterprise_saas:</tspan>
-          <tspan dx="10" fill="#10B981">ONLINE · ERP, E-Commerce &amp; LMS</tspan>
+          <tspan fill="#94A3B8">fullstack_saas:</tspan>
+          <tspan dx="14" fill="#10B981">ONLINE · ERP, Commerce &amp; Apps</tspan>
         </text>
 
         <!-- Cluster 2 with Pulsing Status Dot -->
@@ -298,8 +294,8 @@
           <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" begin="0.5s" repeatCount="indefinite"/>
         </circle>
         <text x="26" y="225">
-          <tspan fill="#94A3B8">alphastream_go:</tspan>
-          <tspan dx="17" fill="#10B981">ONLINE · High-Concurrency API</tspan>
+          <tspan fill="#94A3B8">ai_rag_gateway:</tspan>
+          <tspan dx="14" fill="#10B981">ONLINE · Multi-LLM &amp; Vision</tspan>
         </text>
 
         <!-- Cluster 3 with Pulsing Status Dot -->
@@ -307,13 +303,13 @@
           <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" begin="1.0s" repeatCount="indefinite"/>
         </circle>
         <text x="26" y="245">
-          <tspan fill="#94A3B8">jrigpt_rag_ai:</tspan>
-          <tspan dx="24" fill="#10B981">ONLINE · Multi-LLM &amp; Vision</tspan>
+          <tspan fill="#94A3B8">cloud_devops:</tspan>
+          <tspan dx="28" fill="#10B981">ONLINE · Docker, CI/CD &amp; VPS</tspan>
         </text>
 
         <!-- Live Interactive Command Prompt with Blinking Block Cursor -->
         <text x="0" y="274">
-          <tspan fill="#10B981">fajri@architect</tspan><tspan fill="#64748B">:</tspan><tspan fill="#38BDF8">~</tspan><tspan fill="#CBD5E1">$ status --all --watch </tspan><tspan class="cursor" fill="#38BDF8">█</tspan>
+          <tspan fill="#10B981">fajri@infra</tspan><tspan fill="#64748B">:</tspan><tspan fill="#38BDF8">~</tspan><tspan fill="#CBD5E1">$ kubectl get pods --all-ns </tspan><tspan class="cursor" fill="#38BDF8">█</tspan>
         </text>
       </g>
     </g>
