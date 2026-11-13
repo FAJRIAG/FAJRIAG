@@ -110,17 +110,17 @@ flowchart LR
     <td width="50%" valign="top">
       <h3>1. Full-Stack Web, Enterprise SaaS &amp; Mobile Engineering</h3>
       <ul>
-        <li><strong>Modern Frontend &amp; Full-Stack Web:</strong> Architected responsive, high-performance web applications, SaaS dashboards, and digital platforms using <code>TypeScript</code>, <code>Next.js</code>, <code>React</code>, and <code>Laravel 12</code> (<code>Linkswear</code>, <code>Akugrow</code>, <code>SignalCore</code>, <code>token.fajriag.my.id</code>).</li>
-        <li><strong>Enterprise ERP, E-Commerce &amp; Billing Systems:</strong> Built end-to-end commercial platforms including multi-tenant office/ERP systems (<code>kantor</code>), e-commerce storefronts (<code>Fajthia-Commerce</code>, <code>vps-store</code>), ISP billing automation (<code>pembayaran-wifi</code>), and Learning Management Systems (<code>LMS</code>, <code>BenkyouHub</code>).</li>
-        <li><strong>Cross-Platform &amp; Native Mobile:</strong> Engineered production mobile applications in <code>Flutter (Dart)</code> with Clean Architecture and native iOS applications in <code>Swift</code> (<code>First-Ios-Mobile</code>).</li>
+        <li><strong>Modern Frontend &amp; Full-Stack Web:</strong> Architected responsive, high-performance web applications, SaaS dashboards, and digital platforms using <code>TypeScript</code>, <code>Next.js</code>, <code>React</code>, and <code>Laravel 12</code>.</li>
+        <li><strong>Enterprise ERP, E-Commerce &amp; Billing Systems:</strong> Built end-to-end commercial platforms including multi-tenant office &amp; ERP systems, e-commerce storefronts, automated ISP &amp; cloud billing engines, and Learning Management Systems (LMS).</li>
+        <li><strong>Cross-Platform &amp; Native Mobile:</strong> Engineered production mobile applications in <code>Flutter (Dart)</code> with Clean Architecture and native iOS applications in <code>Swift</code>.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <h3>2. High-Concurrency Backend &amp; DevOps Infrastructure</h3>
       <ul>
-        <li><strong>Go (Golang) &amp; Async Microservices:</strong> Architected concurrent backend services and automated orchestration cores (<code>AlphaStream</code>, <code>BusinessOS</code>, <code>DAGANG-BOT-ID</code>) utilizing goroutine worker pools, <code>FastAPI</code>, <code>Node.js</code>, and WebSocket streams.</li>
+        <li><strong>Go (Golang) &amp; Async Microservices:</strong> Architected concurrent backend services and automated orchestration cores utilizing goroutine worker pools, <code>FastAPI</code>, <code>Node.js</code>, and real-time WebSocket streams.</li>
         <li><strong>DevOps, Containers &amp; CI/CD Pipelines:</strong> Automated build, test, and zero-downtime deployment workflows using <code>Docker</code>, <code>Docker Compose</code>, <code>Kubernetes</code>, <code>GitHub Actions</code>, and <code>GitLab CI</code>.</li>
-        <li><strong>Cloud VPS, Reverse Proxy &amp; Server Hardening:</strong> Provisioned and managed production <code>Linux (Ubuntu/Debian)</code> VPS clusters (<code>vps-store</code>), <code>Nginx / Caddy</code> reverse proxies, <code>Cloudflare</code> WAF/DNS routing, SSL/TLS automation, and <code>Prometheus / Grafana</code> observability.</li>
+        <li><strong>Cloud VPS, Reverse Proxy &amp; Server Hardening:</strong> Provisioned and managed production <code>Linux (Ubuntu/Debian)</code> VPS clusters, <code>Nginx / Caddy</code> reverse proxies, <code>Cloudflare</code> WAF/DNS routing, SSL/TLS automation, and <code>Prometheus / Grafana</code> observability.</li>
       </ul>
     </td>
   </tr>
@@ -128,16 +128,16 @@ flowchart LR
     <td width="50%" valign="top">
       <h3>3. Generative AI, LLMs &amp; Retrieval Architecture</h3>
       <ul>
-        <li><strong>Hybrid RAG Pipelines:</strong> Engineered semantic document intelligence systems (<code>RAG-DocSearch</code>, <code>NeuraSearch</code>) combining dense vector embeddings with lexical retrieval, dynamic chunking, and cross-encoder re-ranking.</li>
-        <li><strong>Multi-Model LLM Orchestration:</strong> Built unified AI gateways and agentic workspaces (<code>JriGPT Platform</code>, <code>DASBAORD9ROUTER</code>) with automated provider failover, token streaming, and structured JSON output enforcement.</li>
-        <li><strong>Transformer Internals &amp; Auditing:</strong> Implemented custom GPT architectures from scratch in PyTorch (<code>pytorch-gpt-from-scratch</code>) and automated semantic verification engines (<code>SemantiCheck</code>, <code>ai-autopsy-engine</code>).</li>
+        <li><strong>Hybrid RAG Pipelines:</strong> Engineered semantic document intelligence systems combining dense vector embeddings with lexical retrieval, dynamic chunking, and cross-encoder re-ranking.</li>
+        <li><strong>Multi-Model LLM Orchestration:</strong> Built unified AI gateways and agentic workspaces with automated provider failover, token streaming, and structured JSON output enforcement.</li>
+        <li><strong>Transformer Internals &amp; Auditing:</strong> Implemented custom GPT architectures from scratch in <code>PyTorch</code> and automated semantic verification engines for LLM output reliability.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <h3>4. Computer Vision, Speech AI &amp; Smart City GIS/IoT</h3>
       <ul>
-        <li><strong>Computer Vision &amp; Speech AI:</strong> Real-time industrial PPE compliance detection using <code>YOLOv8 &amp; OpenCV</code> (<code>Safety-helmet-detector</code>), mobile <code>MobileNetV2</code> agricultural diagnostics, and acoustic pronunciation scoring APIs (<code>Nihongo AI</code>).</li>
-        <li><strong>Geospatial &amp; Decision Support Systems:</strong> Built wildfire hotspot prediction and urban spatial planning platforms (<code>Karhutla-Indonesia</code>, <code>SITARU</code>, <code>geo-dcm</code>) plus multi-criteria DSS engines (<code>AHP</code>, <code>TOPSIS</code>, <code>SMART</code>).</li>
+        <li><strong>Computer Vision &amp; Speech AI:</strong> Real-time industrial PPE compliance detection using <code>YOLOv8 &amp; OpenCV</code>, mobile <code>MobileNetV2</code> agricultural diagnostics, and acoustic pronunciation scoring APIs.</li>
+        <li><strong>Geospatial &amp; Decision Support Systems:</strong> Built wildfire hotspot prediction and urban spatial planning platforms alongside multi-criteria DSS engines (<code>AHP</code>, <code>TOPSIS</code>, <code>SMART</code>).</li>
         <li><strong>Edge-to-Cloud IoT Telemetry:</strong> Hardware-level firmware in <code>C++ / ESP32</code> streaming sensor telemetry via <code>MQTT</code> and <code>Node-RED</code> into real-time analytical dashboards.</li>
       </ul>
     </td>
@@ -148,53 +148,53 @@ flowchart LR
 
 ## Featured Engineering Case Studies
 
-### 01 · Enterprise Full-Stack SaaS, E-Commerce & Digital Platforms (`BusinessOS`, `Linkswear`, `Kantor`, `Fajthia-Commerce`)
+### 01 · Enterprise Full-Stack SaaS, E-Commerce & Digital Platforms
 > **Domain:** `Full-Stack Software Engineering` · `Enterprise SaaS & ERP` · `E-Commerce & FinTech`  
 > **Architecture Stack:** `TypeScript` · `Next.js / React` · `Laravel 12` · `Go` · `PostgreSQL / MySQL` · `Redis` · `Tailwind CSS`
 
 - **Engineering Challenge:** Modern commercial and enterprise workflows require cohesive end-to-end software systems that combine responsive, high-conversion user interfaces with transactional backend reliability, real-time inventory/billing state, and role-based access control.
-- **Architectural Solution:** Engineered a suite of full-stack production platforms spanning enterprise office & operations management (`kantor`, `BusinessOS`), high-traffic digital commerce & automated billing (`Linkswear`, `Fajthia-Commerce`, `vps-store`, `pembayaran-wifi`), and interactive education/media ecosystems (`LMS`, `BenkyouHub`, `KuyNonton`, `dramabox`).
+- **Architectural Solution:** Engineered a suite of full-stack production platforms spanning enterprise office & operations management (ERP), high-traffic digital commerce & automated billing systems, and interactive education (LMS) and digital media ecosystems.
 - **Key Technical Capabilities:** Modular full-stack architecture, SSR/CSR frontend optimization, RESTful & WebSocket API integration, automated payment/billing workflows, Redis session/query caching, and multi-role administrative dashboards.
 
 ---
 
-### 02 · High-Concurrency Go Backend Core & Cloud DevOps Infrastructure (`AlphaStream`, `DAGANG-BOT-ID`, `vps-store`, `token.fajriag.my.id`)
+### 02 · High-Concurrency Go Backend Core & Cloud DevOps Infrastructure
 > **Domain:** `Distributed Backend` · `DevOps & Cloud Infrastructure` · `High-Availability SRE`  
 > **Architecture Stack:** `Go (Golang)` · `Docker & Kubernetes` · `Linux VPS` · `Nginx & Cloudflare` · `GitHub Actions CI/CD` · `PostgreSQL` · `Redis Pub/Sub`
 
 - **Engineering Challenge:** High-throughput backend services and multi-tenant production web platforms demand deterministic low latency, automated deployment pipelines, isolated container environments, and resilient reverse-proxy security.
-- **Architectural Solution:** Engineered concurrent backend services in **Go** (bounded goroutine worker pools and Redis pub/sub) deployed across containerized **Docker / Linux VPS** clusters fronted by **Nginx** reverse proxies, **Cloudflare** DNS/WAF, and automated **CI/CD** pipelines alongside automated VPS & token management platforms (`vps-store`, `token.fajriag.my.id`, `DASBAORD9ROUTER`).
-- **Key Technical Capabilities:** Sub-50ms internal API dispatch, zero-downtime containerized deployments, automated SSL/TLS & reverse-proxy routing, multi-account API gateway load balancing (`AG_SWITCH_ACCOUNT`), and system health telemetry.
+- **Architectural Solution:** Engineered concurrent backend services in **Go** (bounded goroutine worker pools and Redis pub/sub) deployed across containerized **Docker / Linux VPS** clusters fronted by **Nginx** reverse proxies, **Cloudflare** DNS/WAF, and automated **CI/CD** pipelines alongside automated cloud server provisioning and API gateway infrastructure.
+- **Key Technical Capabilities:** Sub-50ms internal API dispatch, zero-downtime containerized deployments, automated SSL/TLS & reverse-proxy routing, multi-provider API gateway load balancing, and real-time system health telemetry.
 
 ---
 
-### 03 · JriGPT Platform, NeuraSearch & Hybrid RAG Engine (`jrigpt-platform`, `RAG-DocSearch`, `SemantiCheck`)
+### 03 · Enterprise Generative AI Workspace & Hybrid RAG Engine
 > **Domain:** `Full-Stack AI Platform` · `Enterprise RAG` · `Multi-LLM Gateway`  
 > **Architecture Stack:** `Python` · `FastAPI` · `LangChain` · `Vector DB` · `Laravel 12` · `TypeScript` · `Redis`
 
 - **Engineering Challenge:** Standard LLM integrations suffer from hallucination on proprietary enterprise documents, high token latency, and single-provider downtime risks.
 - **Architectural Solution:** Designed a full-stack Generative AI platform pairing a **Hybrid Retrieval-Augmented Generation (RAG)** pipeline (dense vector similarity + keyword filtering) with a multi-provider LLM routing gateway and an intuitive full-stack web workspace.
-- **Key Technical Capabilities:** Context-window optimization, automated document ingestion & chunk indexing, semantic similarity verification (`SemantiCheck`), and multi-provider API failover.
+- **Key Technical Capabilities:** Context-window optimization, automated document ingestion & chunk indexing, semantic similarity verification, and multi-provider API failover.
 
 ---
 
-### 04 · Karhutla-Indonesia, SITARU & Smart City Geo-Intelligence (`Karhutla-Indonesia`, `SITARU`, `-dashboard-ecoedu`)
+### 04 · Smart City Geospatial Intelligence & Environmental Analytics
 > **Domain:** `Full-Stack GIS` · `Smart City Infrastructure` · `Public-Sector Analytics`  
 > **Architecture Stack:** `Python` · `Scikit-learn` · `TypeScript` · `Laravel` · `GeoJSON / GIS` · `MySQL`
 
 - **Engineering Challenge:** Regional governments and environmental agencies require unified full-stack platforms to correlate spatial GIS layers, historical hazard data, and public health/education KPIs in real time.
-- **Architectural Solution:** Built integrated geospatial intelligence platforms (`Karhutla-Indonesia`, `SITARU`, `indramayu-analytics-dashboard`) combining Python predictive modeling with interactive TypeScript and Laravel analytical dashboards.
+- **Architectural Solution:** Built integrated geospatial intelligence and urban spatial planning platforms combining Python predictive modeling with interactive TypeScript and Laravel analytical dashboards.
 - **Key Technical Capabilities:** Automated spatial risk clustering, interactive polygon/hotspot rendering, multi-criteria decision support (`AHP` / `TOPSIS` / `SMART`), and executive reporting exports.
 
 ---
 
-### 05 · Nihongo AI, Cross-Platform Mobile & Industrial Vision Suite (`Nihongo AI`, `Safety-helmet-detector`, `First-Ios-Mobile`)
+### 05 · Cross-Platform Mobile Applications, Speech AI & Industrial Vision Suite
 > **Domain:** `Mobile Engineering (Flutter & iOS)` · `Speech AI` · `Computer Vision`  
 > **Architecture Stack:** `Flutter (Dart)` · `Swift (iOS)` · `FastAPI` · `PyTorch` · `YOLOv8` · `MobileNetV2` · `OpenCV`
 
 - **Engineering Challenge:** Delivering responsive mobile user experiences alongside complex deep learning inference (speech phoneme evaluation and real-time video object detection) to end-user devices with minimal latency.
 - **Architectural Solution:** Implemented **Clean Architecture** across **Flutter** and native **Swift** mobile clients, decoupled from containerized **FastAPI/PyTorch** inference microservices and lightweight on-device `MobileNetV2` models.
-- **Key Technical Capabilities:** Real-time frame-by-frame PPE safety compliance detection (`Safety-helmet-detector`), automated acoustic pronunciation scoring, and reactive mobile state management.
+- **Key Technical Capabilities:** Real-time frame-by-frame PPE safety compliance detection (helmet and high-visibility vest tracking), automated acoustic pronunciation scoring, and reactive mobile state management.
 
 ---
 
