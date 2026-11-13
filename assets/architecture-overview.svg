@@ -1,5 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 290" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 295" width="100%" height="100%">
   <defs>
+    <style>
+      @keyframes streamDash {
+        to { stroke-dashoffset: -28; }
+      }
+      @keyframes eqBar1 {
+        0%, 100% { height: 6px; y: 26px; }
+        50% { height: 14px; y: 18px; }
+      }
+      @keyframes eqBar2 {
+        0%, 100% { height: 13px; y: 19px; }
+        50% { height: 5px; y: 27px; }
+      }
+      @keyframes eqBar3 {
+        0%, 100% { height: 8px; y: 24px; }
+        50% { height: 15px; y: 17px; }
+      }
+      @keyframes eqBar4 {
+        0%, 100% { height: 14px; y: 18px; }
+        50% { height: 7px; y: 25px; }
+      }
+      .conduit {
+        stroke-dasharray: 5 5;
+        animation: streamDash 0.9s linear infinite;
+      }
+      .eq1 { animation: eqBar1 0.8s ease-in-out infinite; }
+      .eq2 { animation: eqBar2 0.7s ease-in-out infinite; }
+      .eq3 { animation: eqBar3 0.9s ease-in-out infinite; }
+      .eq4 { animation: eqBar4 0.65s ease-in-out infinite; }
+    </style>
+
     <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#070B14"/>
       <stop offset="100%" stop-color="#0B1120"/>
@@ -8,6 +38,12 @@
     <linearGradient id="nodeBg" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#111827"/>
       <stop offset="100%" stop-color="#090D16"/>
+    </linearGradient>
+
+    <linearGradient id="archSweep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
     </linearGradient>
 
     <pattern id="archGrid" width="24" height="24" patternUnits="userSpaceOnUse">
@@ -23,144 +59,198 @@
     <marker id="arrowEmerald" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M 0 1 L 10 5 L 0 9 z" fill="#10B981"/>
     </marker>
+
+    <clipPath id="archClip">
+      <rect width="1200" height="295" rx="12"/>
+    </clipPath>
   </defs>
 
-  <!-- Canvas -->
-  <rect width="1200" height="290" rx="12" fill="url(#archBg)"/>
-  <rect width="1200" height="290" rx="12" fill="url(#archGrid)"/>
-  <rect x="1" y="1" width="1198" height="288" rx="11" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <g clip-path="url(#archClip)">
+    <!-- Canvas -->
+    <rect width="1200" height="295" rx="12" fill="url(#archBg)"/>
+    <rect width="1200" height="295" rx="12" fill="url(#archGrid)"/>
+    <rect x="1" y="1" width="1198" height="293" rx="11" fill="none" stroke="#1E293B" stroke-width="1.5"/>
 
-  <!-- Header Bar -->
-  <text x="36" y="34" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="700" fill="#38BDF8" letter-spacing="1.2">
-    PRODUCTION SYSTEM ARCHITECTURE BLUEPRINT // END-TO-END ENGINEERING TOPOLOGY
-  </text>
-  <line x1="36" y1="46" x2="1164" y2="46" stroke="#1E293B" stroke-width="1"/>
+    <!-- Top Sweeping Laser Line -->
+    <rect x="-260" y="0.5" width="260" height="2" fill="url(#archSweep)">
+      <animate attributeName="x" values="-260;1200" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
 
-  <!-- ================= TIER 1: CLIENT & EDGE LAYER ================= -->
-  <g transform="translate(36, 66)">
-    <rect x="0" y="0" width="246" height="196" rx="10" fill="url(#nodeBg)" stroke="#1E293B" stroke-width="1.2"/>
-    <rect x="0" y="0" width="246" height="3" rx="1.5" fill="#38BDF8"/>
-    <text x="18" y="28" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#38BDF8">
-      01 // CLIENT &amp; EDGE INGESTION
-    </text>
-    <text x="18" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700" fill="#F8FAFC">
-      Multi-Platform &amp; IoT Edge
-    </text>
-
-    <g transform="translate(18, 66)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#CBD5E1">
-      <rect x="0" y="0" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="105" y="18" text-anchor="middle">Flutter &amp; Swift Mobile Apps</text>
-
-      <rect x="0" y="36" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="105" y="54" text-anchor="middle">Next.js / TS &amp; Blade Web UI</text>
-
-      <rect x="0" y="72" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="105" y="90" text-anchor="middle">ESP32 Sensors &amp; CCTV Streams</text>
-    </g>
-    <text x="123" y="182" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">
-      HTTPS · WSS · MQTT · RTSP
-    </text>
-  </g>
-
-  <!-- Connector 1 -> 2 -->
-  <g>
-    <line x1="282" y1="164" x2="326" y2="164" stroke="#38BDF8" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#arrowCyan)"/>
-    <circle r="3" fill="#38BDF8">
-      <animateMotion dur="1.8s" repeatCount="indefinite" path="M 282 164 L 326 164"/>
+    <!-- Header Bar with Live Animated Equalizer -->
+    <circle cx="44" cy="29" r="4" fill="#38BDF8">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
     </circle>
-  </g>
-
-  <!-- ================= TIER 2: API GATEWAY & BACKEND CORE ================= -->
-  <g transform="translate(332, 66)">
-    <rect x="0" y="0" width="246" height="196" rx="10" fill="url(#nodeBg)" stroke="#1E293B" stroke-width="1.2"/>
-    <rect x="0" y="0" width="246" height="3" rx="1.5" fill="#818CF8"/>
-    <text x="18" y="28" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#818CF8">
-      02 // ORCHESTRATION &amp; API CORE
-    </text>
-    <text x="18" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700" fill="#F8FAFC">
-      High-Concurrency Backends
+    <text x="58" y="33" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="700" fill="#38BDF8" letter-spacing="1.2">
+      PRODUCTION SYSTEM ARCHITECTURE BLUEPRINT // REAL-TIME DATA FLOW TOPOLOGY
     </text>
 
-    <g transform="translate(18, 66)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#CBD5E1">
-      <rect x="0" y="0" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="105" y="18" text-anchor="middle">Go Concurrent Worker Core</text>
-
-      <rect x="0" y="36" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="105" y="54" text-anchor="middle">FastAPI Async ML Gateway</text>
-
-      <rect x="0" y="72" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="105" y="90" text-anchor="middle">Laravel 12 Enterprise Core</text>
+    <!-- Equalizer Bars on Top Right -->
+    <g fill="#10B981">
+      <rect class="eq1" x="982" y="22" width="3" height="10" rx="1"/>
+      <rect class="eq2" x="988" y="19" width="3" height="13" rx="1"/>
+      <rect class="eq3" x="994" y="24" width="3" height="8" rx="1"/>
+      <rect class="eq4" x="1000" y="18" width="3" height="14" rx="1"/>
     </g>
-    <text x="123" y="182" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">
-      REST · WebSockets · RBAC · Queues
+    <text x="1164" y="33" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="600" fill="#10B981">
+      PIPELINE: ACTIVE
     </text>
-  </g>
+    <line x1="36" y1="46" x2="1164" y2="46" stroke="#1E293B" stroke-width="1"/>
 
-  <!-- Connector 2 -> 3 -->
-  <g>
-    <line x1="578" y1="164" x2="622" y2="164" stroke="#818CF8" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#arrowIndigo)"/>
-    <circle r="3" fill="#818CF8">
-      <animateMotion dur="1.8s" repeatCount="indefinite" path="M 578 164 L 622 164"/>
-    </circle>
-  </g>
+    <!-- ================= TIER 1: CLIENT & EDGE LAYER ================= -->
+    <g transform="translate(36, 66)">
+      <rect x="0" y="0" width="246" height="200" rx="10" fill="url(#nodeBg)" stroke="#1E293B" stroke-width="1.2">
+        <animate attributeName="stroke" values="#1E293B;#0EA5E9;#1E293B" dur="3.6s" begin="0s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="0" y="0" width="246" height="3" rx="1.5" fill="#38BDF8"/>
+      <circle cx="228" cy="24" r="3.5" fill="#38BDF8">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" begin="0s" repeatCount="indefinite"/>
+      </circle>
+      <text x="18" y="28" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#38BDF8">
+        01 // CLIENT &amp; EDGE
+      </text>
+      <text x="18" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700" fill="#F8FAFC">
+        Web, Mobile &amp; IoT Edge
+      </text>
 
-  <!-- ================= TIER 3: AI, LLM & VISION ENGINE ================= -->
-  <g transform="translate(628, 66)">
-    <rect x="0" y="0" width="246" height="196" rx="10" fill="url(#nodeBg)" stroke="#1E293B" stroke-width="1.2"/>
-    <rect x="0" y="0" width="246" height="3" rx="1.5" fill="#C084FC"/>
-    <text x="18" y="28" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#C084FC">
-      03 // AI &amp; INFERENCE ENGINE
-    </text>
-    <text x="18" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700" fill="#F8FAFC">
-      Applied ML &amp; GenAI Pipelines
-    </text>
+      <g transform="translate(18, 66)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#CBD5E1">
+        <rect x="0" y="0" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
+        <text x="105" y="18" text-anchor="middle">Next.js / React &amp; Blade UI</text>
 
-    <g transform="translate(18, 66)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#CBD5E1">
-      <rect x="0" y="0" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="105" y="18" text-anchor="middle">LLM Router &amp; Hybrid RAG</text>
+        <rect x="0" y="36" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
+        <text x="105" y="54" text-anchor="middle">Flutter &amp; Swift Mobile Apps</text>
 
-      <rect x="0" y="36" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="105" y="54" text-anchor="middle">PyTorch · YOLOv8 · OpenCV</text>
-
-      <rect x="0" y="72" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="105" y="90" text-anchor="middle">Speech Phoneme &amp; GIS ML</text>
+        <rect x="0" y="72" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
+        <text x="105" y="90" text-anchor="middle">ESP32 Sensors &amp; CCTV Streams</text>
+      </g>
+      <text x="123" y="184" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">
+        HTTPS · WSS · MQTT · RTSP
+      </text>
     </g>
-    <text x="123" y="182" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">
-      Embeddings · CNN · Transformers
-    </text>
-  </g>
 
-  <!-- Connector 3 -> 4 -->
-  <g>
-    <line x1="874" y1="164" x2="918" y2="164" stroke="#10B981" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#arrowEmerald)"/>
-    <circle r="3" fill="#10B981">
-      <animateMotion dur="1.8s" repeatCount="indefinite" path="M 874 164 L 918 164"/>
-    </circle>
-  </g>
-
-  <!-- ================= TIER 4: DATA, VECTOR & TELEMETRY STORE ================= -->
-  <g transform="translate(924, 66)">
-    <rect x="0" y="0" width="240" height="196" rx="10" fill="url(#nodeBg)" stroke="#1E293B" stroke-width="1.2"/>
-    <rect x="0" y="0" width="240" height="3" rx="1.5" fill="#10B981"/>
-    <text x="18" y="28" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#10B981">
-      04 // PERSISTENCE &amp; STORAGE
-    </text>
-    <text x="18" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700" fill="#F8FAFC">
-      Data, Cache &amp; Vector Store
-    </text>
-
-    <g transform="translate(18, 66)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#CBD5E1">
-      <rect x="0" y="0" width="204" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="102" y="18" text-anchor="middle">PostgreSQL &amp; MySQL Clusters</text>
-
-      <rect x="0" y="36" width="204" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="102" y="54" text-anchor="middle">HNSW Vector Search Index</text>
-
-      <rect x="0" y="72" width="204" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
-      <text x="102" y="90" text-anchor="middle">Redis Pub/Sub &amp; Time-Series</text>
+    <!-- Connector 1 -> 2 (Animated Conduit + Dual Glowing Packets) -->
+    <g>
+      <line class="conduit" x1="282" y1="166" x2="326" y2="166" stroke="#38BDF8" stroke-width="2" marker-end="url(#arrowCyan)"/>
+      <circle r="6" fill="#38BDF8" opacity="0.25">
+        <animateMotion dur="1.4s" repeatCount="indefinite" path="M 282 166 L 326 166"/>
+      </circle>
+      <circle r="3" fill="#38BDF8">
+        <animateMotion dur="1.4s" repeatCount="indefinite" path="M 282 166 L 326 166"/>
+      </circle>
     </g>
-    <text x="120" y="182" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">
-      ACID · HNSW · In-Memory Cache
-    </text>
+
+    <!-- ================= TIER 2: API GATEWAY & BACKEND CORE ================= -->
+    <g transform="translate(332, 66)">
+      <rect x="0" y="0" width="246" height="200" rx="10" fill="url(#nodeBg)" stroke="#1E293B" stroke-width="1.2">
+        <animate attributeName="stroke" values="#1E293B;#6366F1;#1E293B" dur="3.6s" begin="0.9s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="0" y="0" width="246" height="3" rx="1.5" fill="#818CF8"/>
+      <circle cx="228" cy="24" r="3.5" fill="#818CF8">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" begin="0.45s" repeatCount="indefinite"/>
+      </circle>
+      <text x="18" y="28" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#818CF8">
+        02 // BACKEND &amp; API CORE
+      </text>
+      <text x="18" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700" fill="#F8FAFC">
+        High-Concurrency Services
+      </text>
+
+      <g transform="translate(18, 66)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#CBD5E1">
+        <rect x="0" y="0" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
+        <text x="105" y="18" text-anchor="middle">Go Concurrent Worker Core</text>
+
+        <rect x="0" y="36" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
+        <text x="105" y="54" text-anchor="middle">Laravel 12 Enterprise Core</text>
+
+        <rect x="0" y="72" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
+        <text x="105" y="90" text-anchor="middle">FastAPI &amp; Node.js Gateways</text>
+      </g>
+      <text x="123" y="184" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">
+        REST · WebSockets · RBAC · Queues
+      </text>
+    </g>
+
+    <!-- Connector 2 -> 3 -->
+    <g>
+      <line class="conduit" x1="578" y1="166" x2="622" y2="166" stroke="#818CF8" stroke-width="2" marker-end="url(#arrowIndigo)"/>
+      <circle r="6" fill="#818CF8" opacity="0.25">
+        <animateMotion dur="1.4s" begin="0.45s" repeatCount="indefinite" path="M 578 166 L 622 166"/>
+      </circle>
+      <circle r="3" fill="#818CF8">
+        <animateMotion dur="1.4s" begin="0.45s" repeatCount="indefinite" path="M 578 166 L 622 166"/>
+      </circle>
+    </g>
+
+    <!-- ================= TIER 3: AI, LLM & VISION ENGINE ================= -->
+    <g transform="translate(628, 66)">
+      <rect x="0" y="0" width="246" height="200" rx="10" fill="url(#nodeBg)" stroke="#1E293B" stroke-width="1.2">
+        <animate attributeName="stroke" values="#1E293B;#A855F7;#1E293B" dur="3.6s" begin="1.8s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="0" y="0" width="246" height="3" rx="1.5" fill="#C084FC"/>
+      <circle cx="228" cy="24" r="3.5" fill="#C084FC">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" begin="0.9s" repeatCount="indefinite"/>
+      </circle>
+      <text x="18" y="28" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#C084FC">
+        03 // AI &amp; ML INFERENCE
+      </text>
+      <text x="18" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700" fill="#F8FAFC">
+        Applied ML &amp; GenAI Pipelines
+      </text>
+
+      <g transform="translate(18, 66)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#CBD5E1">
+        <rect x="0" y="0" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
+        <text x="105" y="18" text-anchor="middle">LLM Router &amp; Hybrid RAG</text>
+
+        <rect x="0" y="36" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
+        <text x="105" y="54" text-anchor="middle">PyTorch · YOLOv8 · OpenCV</text>
+
+        <rect x="0" y="72" width="210" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
+        <text x="105" y="90" text-anchor="middle">Speech Phoneme &amp; GIS ML</text>
+      </g>
+      <text x="123" y="184" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">
+        Embeddings · CNN · Transformers
+      </text>
+    </g>
+
+    <!-- Connector 3 -> 4 -->
+    <g>
+      <line class="conduit" x1="874" y1="166" x2="918" y2="166" stroke="#10B981" stroke-width="2" marker-end="url(#arrowEmerald)"/>
+      <circle r="6" fill="#10B981" opacity="0.25">
+        <animateMotion dur="1.4s" begin="0.9s" repeatCount="indefinite" path="M 874 166 L 918 166"/>
+      </circle>
+      <circle r="3" fill="#10B981">
+        <animateMotion dur="1.4s" begin="0.9s" repeatCount="indefinite" path="M 874 166 L 918 166"/>
+      </circle>
+    </g>
+
+    <!-- ================= TIER 4: DATA, VECTOR & TELEMETRY STORE ================= -->
+    <g transform="translate(924, 66)">
+      <rect x="0" y="0" width="240" height="200" rx="10" fill="url(#nodeBg)" stroke="#1E293B" stroke-width="1.2">
+        <animate attributeName="stroke" values="#1E293B;#10B981;#1E293B" dur="3.6s" begin="2.7s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="0" y="0" width="240" height="3" rx="1.5" fill="#10B981"/>
+      <circle cx="222" cy="24" r="3.5" fill="#10B981">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" begin="1.35s" repeatCount="indefinite"/>
+      </circle>
+      <text x="18" y="28" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#10B981">
+        04 // PERSISTENCE LAYER
+      </text>
+      <text x="18" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700" fill="#F8FAFC">
+        Data, Cache &amp; Vector Store
+      </text>
+
+      <g transform="translate(18, 66)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#CBD5E1">
+        <rect x="0" y="0" width="204" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
+        <text x="102" y="18" text-anchor="middle">PostgreSQL &amp; MySQL Clusters</text>
+
+        <rect x="0" y="36" width="204" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
+        <text x="102" y="54" text-anchor="middle">HNSW Vector Search Index</text>
+
+        <rect x="0" y="72" width="204" height="28" rx="5" fill="#0F172A" stroke="#1E293B"/>
+        <text x="102" y="90" text-anchor="middle">Redis Pub/Sub &amp; Time-Series</text>
+      </g>
+      <text x="120" y="184" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#64748B">
+        ACID · HNSW · In-Memory Cache
+      </text>
+    </g>
   </g>
 </svg>

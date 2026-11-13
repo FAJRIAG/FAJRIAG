@@ -4,7 +4,13 @@
 
 <div align="center">
   <img src="./assets/hero-banner.svg" width="100%" alt="Fajri Abdurahman Ghurri — Full-Stack Software & AI Systems Engineer" />
-  <br/><br/>
+  <br/>
+
+  <!-- Animated Typewriter Engineering Headline -->
+  <a href="https://github.com/FAJRIAG">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&width=920&height=38&lines=Full-Stack+Software+Engineer+%C2%B7+TypeScript%2C+Next.js%2C+React+%26+Laravel+12;High-Concurrency+Backend+Architect+%C2%B7+Go+(Golang)%2C+FastAPI%2C+Redis+%26+PostgreSQL;Production+AI+%26+LLM+Systems+%C2%B7+Hybrid+RAG%2C+PyTorch%2C+YOLOv8+%26+LangChain;Cross-Platform+Mobile+%26+Smart+City+IoT+%C2%B7+Flutter%2C+Swift+iOS%2C+GIS+%26+ESP32" alt="Animated Engineering Headline" />
+  </a>
+  <br/>
 
   <!-- Primary Action & Contact Badges -->
   <p align="center">
